@@ -1,0 +1,10 @@
+{
+   "type" : "job",
+   "mixins" : "stonehearth:jobs:archer",
+   "parent_job": "stonehearth:jobs:footman",
+   "parent_level_requirement" : 3,
+   "equipment": {
+   		"helmet": "file(archer_hood)",
+    	"torso": "file(archer_outfit)"
+   }
+}

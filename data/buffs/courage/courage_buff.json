@@ -1,0 +1,18 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(bastioneers:data.buffs.courage.courage_buff.display_name)",
+   "description": "i18n(bastioneers:data.buffs.courage.courage_buff.description)",
+   "icon": "file(courage_buff.png)",
+   "modifiers": {
+      "courage": {
+         "add": 100
+      },
+      "speed": {
+         "multiply": 0.9
+      }
+   },
+   "tags": [
+      "courageous heraldic"
+   ]
+}

@@ -1,0 +1,25 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "display_name": "i18n(bastioneers:entities.fungi.fine_mushroom_colony.display_name)",
+         "description": "i18n(bastioneers:entities.fungi.fine_mushroom_colony.description)",
+         "icon": "file(fine_mushroom_colony.png)"
+      },
+      "render_info": {
+         "scale": 0.15
+      },
+      "mob": {
+         "model_origin": { "x": -0.075, "y": 0, "z": 0.075 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(fine_mushroom_colony.qb)"
+            ]
+         }
+      }
+   }
+}

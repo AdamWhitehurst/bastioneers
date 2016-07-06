@@ -1,0 +1,30 @@
+{
+   "mixins": "/stonehearth/jobs/herbalist/recipes/recipes.json",
+   "craftable_recipes": {
+      "tonics": {
+         "recipes": {
+            "stamina_tonic": {
+               "recipe": "file(stamina_tonic_recipe.json)"
+            },
+            "strength_tonic": {
+               "recipe": "file(strength_tonic_recipe.json)"
+            },
+            "courage_tonic": {
+               "recipe": "file(courage_tonic_recipe.json)"
+            }
+         }
+      },
+      "fungi": {
+         "ordinal": 6,
+         "name": "i18n(bastioneers:jobs.herbalist.recipes.fungi_name)",
+         "recipes": {
+            "mushroom_colony": {
+               "recipe": "file(mushroom_colony_recipe.json)"
+            },
+            "fine_mushroom_colony": {
+               "recipe": "file(fine_mushroom_colony_recipe.json)"
+            }
+         }
+      }
+   }
+}

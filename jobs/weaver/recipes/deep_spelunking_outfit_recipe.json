@@ -1,0 +1,33 @@
+{
+   "type": "recipe",
+   "work_units": 3,
+   "recipe_name": "i18n(bastioneers:jobs.weaver.recipes.deep_spelunking_outfit_recipe.recipe_name)",
+   "description": "i18n(bastioneers:jobs.weaver.recipes.deep_spelunking_outfit_recipe.description)",
+   "flavor": "i18n(stonehearth:jobs.weaver.recipes.deep_spelunking_outfit_recipe.flavor)",
+   "portrait": "/bastioneers/entities/armor/deep_spelunking_outfit/deep_spelunking_outfit.png",
+   "workshop": "stonehearth:weaver:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "material": "cloth resource",
+         "count": 12
+      },
+      {
+         "material": "thread resource",
+         "count": 4
+      },
+      {
+         "uri": "bastioneers:armor:basic_stone_armor",
+         "count": 1
+      },
+      {
+         "uri": "bastioneers:gems:mossee_gem",
+         "count": 5
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:worker:outfit:2"
+      }
+   ]
+}

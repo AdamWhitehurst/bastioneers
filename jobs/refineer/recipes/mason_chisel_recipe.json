@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "work_units": 20,
+   "recipe_name": "i18n(stonehearth:jobs.carpenter.recipes.mason_chisel_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.carpenter.recipes.mason_chisel_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/jobs/mason/mason_chisel/mason_chisel.png",
+   "workshop": "bastioneers:refineer:platform",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "wood resource",
+         "count": 2
+      },
+      {
+         "material": "stone resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:mason:talisman"
+      }
+   ]
+}

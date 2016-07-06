@@ -1,0 +1,20 @@
+{
+   "type": "campaign",
+   "rarity": "common",
+   "can_start": {
+      "bastioneers_check": {
+         "kingdom_check": {
+            "type": "deny_if_not",
+            "item": "kingdom",
+            "value": "bastioneers:kingdoms:bastioneers"
+         }
+      }
+   },
+   "arcs": {
+      "trigger": {
+         "expeditions": "file(arcs/expeditions_arc.json)"
+      },
+      "challenge": {},
+      "climax": {}
+   }
+}

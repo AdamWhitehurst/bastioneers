@@ -1,0 +1,21 @@
+{
+   "type": "campaign",
+   "mod_root": "bastioneers",
+   "rarity": "common",
+   "can_start": {
+      "bastioneers_check": {
+         "kingdom_check": {
+            "type": "deny_if_not",
+            "item": "kingdom",
+            "value": "bastioneers:kingdoms:bastioneers"
+         }
+      }
+   },
+   "arcs": {
+      "trigger": {
+         "bastioneers_campaign": "file(arcs/trigger/bastioneers_campaign/bastioneers_campaign.json)"
+      },
+      "challenge": {},
+      "climax": {}
+   }
+}

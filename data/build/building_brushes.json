@@ -1,0 +1,79 @@
+{
+   "always_available": {
+      "stone resource": {
+         "colors": {
+            "#7D6E7F": {
+               "display_name": "i18n(bastioneers:data.build.building_brushes.colors.#7D6E7F)",
+               "ordinal": 21
+            },
+            "#69606D": {
+               "display_name": "i18n(bastioneers:data.build.building_brushes.colors.#69606D)",
+               "ordinal": 23
+            },
+            "#574C4E": {
+               "display_name": "i18n(bastioneers:data.build.building_brushes.colors.#574C4E)",
+               "ordinal": 24
+            },
+            "#5F5558": {
+               "display_name": "i18n(bastioneers:data.build.building_brushes.colors.#5F5558)",
+               "ordinal": 25
+            },
+            "#665D5E": {
+               "display_name": "i18n(bastioneers:data.build.building_brushes.colors.#665D5E)",
+               "ordinal": 26
+            },
+            "#7C848E": {
+               "display_name": "i18n(bastioneers:data.build.building_brushes.colors.#7C848E)",
+               "ordinal": 31
+            },
+            "#656F7C": {
+               "display_name": "i18n(bastioneers:data.build.building_brushes.colors.#656F7C)",
+               "ordinal": 32
+            },
+            "#515865": {
+               "display_name": "i18n(bastioneers:data.build.building_brushes.colors.#515865)",
+               "ordinal": 33
+            },
+            "#72798A": {
+               "display_name": "i18n(bastioneers:data.build.building_brushes.colors.#72798A)",
+               "ordinal": 35
+            },
+            "#5E6875": {
+               "display_name": "i18n(bastioneers:data.build.building_brushes.colors.#5E6875)",
+               "ordinal": 35
+            }
+         }
+      }
+   },
+   "wall": {
+      "stone resource": {
+         "patterns": {
+            "bastioneers:build:brushes:wall:blue_stone_wall": "/bastioneers/data/build/brushes/wall/blue_stone_wall/blue_stone_wall.png",
+            "bastioneers:build:brushes:wall:lavender_stone_wall": "/bastioneers/data/build/brushes/wall/lavender_stone_wall/lavender_stone_wall.png",
+            "bastioneers:build:brushes:wall:pillared_stone_wall": "/bastioneers/data/build/brushes/wall/pillared_stone_wall/pillared_stone_wall.png",
+            "bastioneers:build:brushes:wall:polished_stone_wall": "/bastioneers/data/build/brushes/wall/polished_stone_wall/polished_stone_wall.png",
+            "bastioneers:build:brushes:wall:red_stone_wall": "/bastioneers/data/build/brushes/wall/red_stone_wall/red_stone_wall.png",
+            "bastioneers:build:brushes:wall:simple_brick_wall": "/bastioneers/data/build/brushes/wall/simple_brick_wall/simple_brick_wall.png"
+         },
+         "colors": {}
+      }
+   },
+   "roof": {
+      "clay_brick resource": {
+         "patterns": {
+            "bastioneers:build:brushes:roof:crenellated_adobe": {
+               "icon": "/bastioneers/data/build/brushes/roof/crenellated_adobe/crenellated_adobe.png",
+               "type": "flat"
+            }
+         }
+      },
+      "stone resource": {
+         "patterns": {
+            "bastioneers:build:brushes:roof:crenellated_stone": {
+               "icon": "/bastioneers/data/build/brushes/roof/crenellated_stone/crenellated_stone.png",
+               "type": "flat"
+            }
+         }
+      }
+   }
+}

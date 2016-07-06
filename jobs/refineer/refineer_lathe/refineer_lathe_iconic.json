@@ -1,0 +1,22 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "item": {
+         "category": "workshops"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(refineer_lathe_iconic.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0, "y": 0, "z": 0 }
+      },
+      "effect_list": {
+         "default": "stonehearth:effects:talisman_glow"
+      }
+   }
+}

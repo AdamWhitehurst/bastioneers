@@ -1,0 +1,25 @@
+{
+   "components": {
+         "bastioneers:durability": {
+         "total_durability": 450
+      },
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "true",
+            "mixintype_models": "override",
+            "models": [
+               "file(iron_helm.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "true",
+            "mixintype_models": "override",
+            "models": [
+               "file(iron_helm.qb)"
+            ]
+         }
+      }
+   }
+}

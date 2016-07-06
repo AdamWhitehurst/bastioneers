@@ -1,0 +1,31 @@
+{
+   "components": {
+      "unit_info": {
+         "icon": "file(winter_worker_outfit.png)"
+      },
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "mixintype_models": "override",
+            "models": [
+               "file(winter_worker_outfit.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "mixintype_models": "override",
+            "models": [
+               "file(winter_worker_outfit.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "injected_buffs": [
+            "bastioneers:buffs:courage"
+         ]
+      },
+      "bastioneers:durability": {
+         "total_durability": 350
+      }
+   }
+}

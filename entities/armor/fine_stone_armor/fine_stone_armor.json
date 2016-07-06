@@ -1,0 +1,62 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "display_name": "i18n(bastioneers:entities.armor.fine_stone_armor.display_name)",
+         "description": "i18n(bastioneers:entities.armor.fine_stone_armor.description)",
+         "icon": "file(fine_stone_armor.png)"
+      },
+      "item": {
+         "category": "armor"
+      },
+      "stonehearth:material": {
+         "tags": "armor heavy_armor combat"
+      },
+      "model_variants": {
+         "default": {
+            "layer": "armor",
+            "models": [
+               "file(fine_stone_armor.qb)"
+            ]
+         },
+         "female": {
+            "layer": "armor",
+            "models": [
+               "file(fine_stone_armor.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(fine_stone_armor_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "torso",
+         "ilevel": 2,
+         "roles": "everyone combat",
+         "injected_buffs": [
+            "bastioneers:buffs:courage"
+         ],
+         "equip_effect": "/stonehearth/data/effects/level_up"
+      },
+      "bastioneers:durability": {
+         "total_durability": 275
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 8
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 32,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      }
+   }
+}

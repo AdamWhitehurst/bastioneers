@@ -1,0 +1,45 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "display_name": "i18n(bastioneers:jobs.carpenter.carpenter_hat.display_name)",
+         "description": "i18n(bastioneers:jobs.carpenter.carpenter_hat.description)",
+         "icon": "file(carpenter_hat.png)"
+      },
+      "item": {
+         "category": "armor"
+      },
+      "stonehearth:material": {
+         "tags": "armor"
+      },
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(carpenter_hat.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(carpenter_hat.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "helmet",
+         "ilevel": 2,
+         "roles": "carpenter_job",
+         "no_drop": true
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 1
+      }
+   }
+}

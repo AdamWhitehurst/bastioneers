@@ -1,0 +1,20 @@
+{
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "true",
+            "models": [
+               "file(studded_leather_helmet.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "true",
+            "models": [
+               "file(studded_leather_helmet.qb)"
+            ]
+         }
+      }
+   }
+}

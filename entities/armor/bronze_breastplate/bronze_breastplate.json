@@ -1,0 +1,28 @@
+{
+   "components": {
+      "unit_info": {
+         "icon": "file(bronze_breastplate.png)"
+      },
+         "bastioneers:durability": {
+         "total_durability": 350
+      },
+      "model_variants": {
+         "default": {
+            "layer": "armor",
+            "transparent": "true",
+            "mixintype_models": "override",
+            "models": [
+               "file(bronze_breastplate.qb)"
+            ]
+         },
+         "female": {
+            "layer": "armor",
+            "transparent": "true",
+            "mixintype_models": "override",
+            "models": [
+               "file(bronze_breastplate.qb)"
+            ]
+         }
+      }
+   }
+}

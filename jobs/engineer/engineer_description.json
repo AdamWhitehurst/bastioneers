@@ -1,0 +1,9 @@
+{
+	"type" : "job",
+   	"mixins": "stonehearth:jobs:engineer",
+   	"equipment": {
+   		"torso": "file(engineer_outfit)",
+   		"mainhand": "stonehearth:engineer:wrench",
+   		"helmet": "file(engineer_helm)"
+   }
+}

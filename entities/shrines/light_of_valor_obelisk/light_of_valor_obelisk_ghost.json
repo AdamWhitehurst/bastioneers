@@ -1,0 +1,27 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(light_of_valor_obelisk.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": 0.075, "y": 0, "z": 0.075 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+      "render_info": {
+         "scale": 0.15
+      },
+      "unit_info": {
+         "display_name": "i18n(bastioneers:entities.shrines.light_of_valor_obelisk.light_of_valor_obelisk_ghost.display_name)",
+         "description": "i18n(bastioneers:entities.shrines.light_of_valor_obelisk.light_of_valor_obelisk_ghost.description)",
+         "icon": "file(light_of_valor_obelisk.png)"
+      },
+      "stonehearth:material": {
+         "tags": "light_source crafted obelisk"
+      }
+   }
+}

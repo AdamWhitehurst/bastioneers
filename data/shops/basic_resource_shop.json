@@ -1,0 +1,42 @@
+{
+   "kingdoms": {
+      "bastioneers:kingdoms:bastioneers" : {
+         "shop_info": {
+            "name": "i18n(bastioneers:data.shops.basic_resource_shop.name)",
+            "title": "i18n(bastioneers:data.shops.basic_resource_shop.title)",
+            "inventory": {
+               "overall_price_multiplier": 4.2,
+               "entries": [ 
+                  {
+                     "items": [
+                        "stonehearth:resources:clay:clay_mound"
+                     ],
+                     "quantity": {
+                        "min": 0,
+                        "max": 20
+                     }
+                  },
+                  {
+                     "items": [
+                        "stonehearth:resources:wood:pine_log"
+                     ],
+                     "quantity": {
+                        "min": 0,
+                        "max": 20
+                     }
+                  },
+                  {
+                     "items": [
+                        "stonehearth:resources:stone:hunk_of_stone"
+                     ],
+                     "quantity": {
+                        "min": 0,
+                        "max": 100
+                     }
+                  }
+               ]
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,14 @@
+{
+	"type": "command",
+	"name": "heraldric_bulwark_buff",
+	"display_name": "i18n(bastioneers:data.commands.heraldric_bulwark_buff.display_name)",
+	"description": "i18n(bastioneers:data.commands.heraldric_bulwark_buff.description)",
+	"icon": "file(heraldric_bulwark_buff.png)",
+	"action": "call",
+	"function": "buff_command",
+	"object": "bastioneers.piety",
+	"args": [
+		"{{self}}",
+		"bastioneers:buffs:heraldric_bulwark"
+	]
+}

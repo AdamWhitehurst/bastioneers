@@ -1,0 +1,10 @@
+{
+   "campaigns": {
+      "bastioneers_campaign": {
+         "bastioneers_campaign": "file(campaigns/bastioneers_campaign/bastioneers_campaign.json)"
+      },
+      "bastioneer_traders": {
+      	"bastioneer_traders": "file(campaigns/bastioneer_traders/bastioneer_traders.json)"
+      }
+   }
+}

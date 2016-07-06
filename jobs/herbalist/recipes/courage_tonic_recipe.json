@@ -1,0 +1,29 @@
+{
+   "type": "recipe",
+   "work_units": 15,
+   "recipe_name": "i18n(stonehearth:jobs.herbalist.recipes.courage_tonic_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.herbalist.recipes.courage_tonic_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/consumables/courage_tonic/courage_tonic.png",
+   "workshop": "stonehearth:herbalist:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "herb resource",
+         "count": 15
+      },
+      {
+         "uri": "stonehearth:resources:varanus_skin",
+         "count": 1
+      },
+      {
+         "uri": "bastioneers:food:fungi:mushroom_basket",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:consumables:courage_tonic"
+      }
+   ]
+}

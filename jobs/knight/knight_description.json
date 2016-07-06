@@ -1,0 +1,10 @@
+{
+   "type" : "job",
+   "mixins" : "stonehearth:jobs:knight",
+   "parent_job": "stonehearth:jobs:footman",
+   "parent_level_requirement" : 3,
+   "equipment": {
+   		"helmet": "file(knight_helm)",
+   		"torso" : "file(knight_outfit)"
+   }
+}

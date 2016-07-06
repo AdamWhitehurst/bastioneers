@@ -1,0 +1,36 @@
+{
+   "mineable_blocks": {
+      	"rock": {
+         	"entries": {
+            	"default": {
+               		"items": {
+		              	"natallium": {
+		                 	"uri": "bastioneers:resources:natallium",
+		                 	"weight": 0.02
+		           		},
+		           		"buhblee_gem": {
+		                 	"uri": "bastioneers:resources:gems:buhblee_gem",
+		                 	"weight": 0.003
+		           		},
+		           		"jollee_gem": {
+		                 	"uri": "bastioneers:resources:gems:jollee_gem",
+		                 	"weight": 0.003
+		           		},
+		           		"mossee_gem": {
+		                 	"uri": "bastioneers:resources:gems:mossee_gem",
+		                 	"weight": 0.003
+		           		},
+		           		"perplee_gem": {
+		                 	"uri": "bastioneers:resources:gems:perplee_gem",
+		                 	"weight": 0.003
+		           		},
+		              	"soft_stone_pile": {
+		                 	"uri": "bastioneers:food:soft_stone:soft_stone_pile",
+		                 	"weight": 0.1
+		              	}
+               		}
+         		}
+      		}
+   		}
+  	}
+}

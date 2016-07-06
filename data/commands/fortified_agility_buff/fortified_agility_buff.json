@@ -1,0 +1,14 @@
+{
+	"type": "command",
+	"name": "fortified_agility_buff",
+	"display_name": "i18n(bastioneers:data.commands.fortified_agility_buff.display_name)",
+	"description": "i18n(bastioneers:data.commands.fortified_agility_buff.description)",
+	"icon": "file(fortified_agility_buff.png)",
+	"action": "call",
+	"function": "buff_command",
+	"object": "bastioneers.piety",
+	"args": [
+		"{{self}}",
+		"bastioneers:buffs:fortified_agility"
+	]
+}

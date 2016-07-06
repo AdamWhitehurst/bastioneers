@@ -1,0 +1,37 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "unit_info": {
+         "display_name": "i18n(stonehearth:jobs.herbalist.herbalist_outfit.display_name)",
+         "description": "i18n(stonehearth:jobs.herbalist.herbalist_outfit.description)",
+         "icon": "file(herbalist_outfit.png)"
+      },
+      "render_info": {},
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "transparent": "false",
+            "models": [
+               "file(herbalist_outfit.qb)",
+               "file(herbalist_hat.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "transparent": "false",
+            "models": [
+               "file(herbalist_outfit.qb)",
+               "file(herbalist_hat.qb)"
+            ]
+         }
+      },
+      "stonehearth:material": {
+         "tags": "cloth"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "torso",
+         "render_type": "merge_with_model"
+      }
+   }
+}

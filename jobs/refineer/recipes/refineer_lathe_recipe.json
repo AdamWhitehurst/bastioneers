@@ -1,0 +1,24 @@
+{
+   "type": "recipe",
+   "work_units": 5,
+   "recipe_name": "i18n(bastioneers:jobs.refineer.recipes.refineer_lathe_recipe.recipe_name)",
+   "description": "i18n(bastioneers:jobs.refineer.recipes.refineer_lathe_recipe.description)",
+   "flavor": "i18n(bastioneers:jobs.refineer.recipes.refineer_lathe_recipe.flavor)",
+   "portrait": "/bastioneers/jobs/refineer/refineer_lathe/refineer_lathe.png",
+   "level_requirement": 5,
+   "ingredients": [
+      {
+         "material": "stone resource",
+         "count": 4
+      },
+      {
+         "material": "wood resource",
+         "count": 5
+      }
+   ],
+   "produces": [
+      {
+         "item": "bastioneers:refineer:lathe"
+      }
+   ]
+}

@@ -1,0 +1,53 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "unit_info": {
+         "display_name": "i18n(bastioneers:jobs.refineer.refineer_mallet.display_name)",
+         "description": "i18n(bastioneers:jobs.refineer.refineer_mallet.description)"
+      },
+      "item": {
+         "category": "tools"
+      },
+      "stonehearth:material": {
+         "tags": "tool"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(refineer_mallet_equipped.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "render_type": "attach_to_bone",
+         "postures": [
+            "stonehearth:combat"
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 3,
+         "reach": 0.75
+      },
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_1h_forehand",
+            "effect": "combat_1h_forehand",
+            "active_frame": 16,
+            "cooldown": 0,
+            "priority": 0
+         }
+      ],
+      "stonehearth:net_worth": {
+         "value_in_gold": 0,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      }
+   }
+}

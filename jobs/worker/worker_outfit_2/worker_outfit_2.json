@@ -1,0 +1,31 @@
+{
+   "components": {
+      "unit_info": {
+         "icon": "file(worker_outfit_2.png)"
+      },
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "mixintype_models": "override",
+            "models": [
+               "file(worker_outfit_2.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "mixintype_models": "override",
+            "models": [
+               "file(worker_outfit_2.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "injected_buffs": [
+            "bastioneers:buffs:courage"
+         ]
+      },
+      "bastioneers:durability": {
+         "total_durability": 300
+      }
+   }
+}

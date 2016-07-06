@@ -1,0 +1,45 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "display_name": "i18n(bastioneers:jobs.potter.potter_hat.display_name)",
+         "description": "i18n(bastioneers:jobs.potter.potter_hat.description)",
+         "icon": "file(potter_hat.png)"
+      },
+      "item": {
+         "category": "armor"
+      },
+      "stonehearth:material": {
+         "tags": "clay armor "
+      },
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(potter_hat.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(potter_hat.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "helmet",
+         "ilevel": 2,
+         "roles": "potter_job",
+         "no_drop": true
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 1
+      }
+   }
+}

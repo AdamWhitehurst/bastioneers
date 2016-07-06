@@ -1,0 +1,9 @@
+{
+	"type": "entity",
+   "components": {
+      "stonehearth:material": {
+"tags_modified": true,
+         "tags": "fiber resource plant stockpile_plant raw_material"
+      }
+   }
+}

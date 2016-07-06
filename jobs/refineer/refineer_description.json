@@ -1,0 +1,110 @@
+{
+   "type": "job",
+   "job_id": "refineer",
+   "alias": "bastioneers:jobs:refineer",
+   "display_name": "i18n(bastioneers:jobs.refineer.refineer_description.display_name)",
+   "controller": "bastioneers:class:refineer",
+   "description": "i18n(bastioneers:jobs.refineer.refineer_description.description)",
+   "requirements": "i18n(bastioneers:jobs.refineer.refineer_description.requirements)",
+   "abilities": "file(refineer_abilities)",
+   "equipment": {
+      "torso": "file(refineer_outfit)",
+      "mainhand": "bastioneers:refineer:rasp"
+   },
+   "roles": "refineer_job crafter",
+   "talisman_uri": "bastioneers:refineer:talisman",
+   "default_stance": "passive",
+   "icon": "file(images/icon.png)",
+   "promotion_activity_name": "promote_refineer",
+   "task_groups": [
+      "stonehearth:task_group:common_tasks",
+      "stonehearth:task_group:crafting",
+      "stonehearth:task_group:restock",
+      "stonehearth:task_group:placement",
+      "stonehearth:task_group:mining",
+      "stonehearth:task_group:build"
+   ],
+   "crafter": {
+      "work_effect": "chisel",
+      "recipe_list": "/bastioneers/jobs/refineer/recipes/recipes.json"
+   },
+   "workshop": {
+      "portrait": "file(/jobs/refineer/refineer_platform/refineer_platform.png)",
+      "workbench_type": "bastioneers:refineer:platform",
+      "skin_class": "refineer",
+      "open_sound": "stonehearth:sounds:ui:mason_menu:menu_open",
+      "close_sound": "stonehearth:sounds:ui:carpenter_menu:menu_closed"
+   },
+   "parent_job": "stonehearth:jobs:worker",
+   "xp_rewards": {
+      "craft_level_0": 15,
+      "craft_level_1": 17,
+      "craft_level_2": 19,
+      "craft_level_3": 21,
+      "craft_level_4": 23,
+      "craft_level_5": 25,
+      "craft_level_6": 27
+   },
+   "max_level": 6,
+   "level_data": {
+      "1": {
+         "perks": [
+            {
+               "name": "i18n(stonehearth:jobs.mason.mason_description.level_1_data.perk_000_name)",
+               "id": "crafter_recipe_unlock_1",
+               "icon": "/stonehearth/jobs/common/images/standard_catalog.png",
+               "description": "i18n(stonehearth:jobs.mason.mason_description.level_1_data.perk_000_description)",
+               "level": 1
+            }
+         ]
+      },
+      "2": {
+         "perks": [
+            {
+               "name": "i18n(stonehearth:jobs.mason.mason_description.level_2_data.perk_000_name)",
+               "id": "crafter_recipe_unlock_2",
+               "icon": "/stonehearth/jobs/common/images/collaborative_insight.png",
+               "description": "i18n(stonehearth:jobs.mason.mason_description.level_2_data.perk_000_description)",
+               "level": 2
+            }
+         ]
+      },
+      "3": {
+         "perks": [
+            {
+               "type": "set_fine_percentage",
+               "name": "i18n(stonehearth:jobs.mason.mason_description.level_3_data.perk_000_name)",
+               "id": "crafter_recipe_unlock_3",
+               "icon": "/stonehearth/jobs/common/images/artistic_inspiration.png",
+               "description": "i18n(stonehearth:jobs.mason.mason_description.level_3_data.perk_000_description)",
+               "percent_chance": 10,
+               "level": 3,
+               "demote_fn": "unset_fine_percentage"
+            }
+         ]
+      },
+      "4": {
+         "perks": [
+            {
+               "name": "i18n(stonehearth:jobs.mason.mason_description.level_4_data.perk_000_name)",
+               "id": "crafter_recipe_unlock_4",
+               "icon": "/stonehearth/jobs/common/images/extended_catalog.png",
+               "description": "i18n(stonehearth:jobs.mason.mason_description.level_4_data.perk_000_description)",
+               "level": 4
+            }
+         ]
+      },
+      "6": {
+         "title": "i18n(stonehearth:jobs.mason.mason_description.level_6_data.title)",
+         "perks": [
+            {
+               "name": "i18n(stonehearth:jobs.mason.mason_description.level_6_data.perk_000_name)",
+               "id": "crafter_recipe_unlock_6",
+               "icon": "/stonehearth/jobs/common/images/common/images/master.png",
+               "description": "i18n(stonehearth:jobs.mason.mason_description.level_6_data.perk_000_description)",
+               "level": 6
+            }
+         ]
+      }
+   }
+}

@@ -1,0 +1,9 @@
+{
+   "type": "encounter",
+   "encounter_type": "wait",
+   "in_edge": "wait_for_tomorrow_1",
+   "out_edge": "bastioneers_expedition_1_dialog",
+   "wait_info": {
+      "duration": "20h+4h"
+   }
+}

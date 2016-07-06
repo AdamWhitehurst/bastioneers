@@ -1,0 +1,28 @@
+{
+   "mixins": "stonehearth:mixins:placed_object",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "display_name": "i18n(bastioneers:entities.stones.natal_stone.display_name)",
+         "description": "i18n(bastioneers:entities.stones.natal_stone.description)",
+         "icon": "file(natal_stone.png)"
+      },
+      "stonehearth:material": {
+         "tags": "natal crafted arcane refined stockpile_refined_refineer"
+      },
+      "render_info": {
+         "scale": 0.15
+      },
+      "mob": {
+         "model_origin": { "x": -1, "y": 0, "z": -1 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 }
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(natal_stone.qb)"
+            ]
+         }
+      }
+   }
+}

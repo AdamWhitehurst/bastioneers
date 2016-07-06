@@ -1,0 +1,59 @@
+{
+   "mixins": "/stonehearth/jobs/blacksmith/recipes/recipes.json",
+   "craftable_recipes": {
+      "armor": {
+         "recipes": {
+            "bucket_helmet": {
+               "recipe": "file(bucket_helmet_recipe.json)"
+            },
+            "ornate_armor": {
+               "recipe": "file(ornate_armor_recipe.json)"
+            }
+         }
+      },
+      "smelt": {
+         "ordinal": 99,
+         "name": "",
+         "ordinal": 2,
+         "name": "i18n(stonehearth:jobs.blacksmith.recipes.smelt_name)",
+         "recipes": {
+            "copper_ingot": {
+               "recipe": ""
+            },
+            "tin_ingot": {
+               "recipe": ""
+            },
+            "bronze_ingot": {
+               "recipe": ""
+            },
+            "iron_ingot": {
+               "recipe": ""
+            },
+            "silver_ingot": {
+               "recipe": ""
+            },
+            "gold_ingot": {
+               "recipe": ""
+            },
+            "steel_ingot": {
+               "recipe": ""
+            }
+         }
+      },
+      "shrines": {
+         "ordinal": 6,
+         "name": "i18n(bastioneers:jobs.blacksmith.recipes.shrines_name)",
+         "recipes": {
+            "fortified_agility_obelisk": {
+               "recipe": "file(fortified_agility_obelisk_recipe.json)"
+            },
+            "light_of_valor_obelisk": {
+               "recipe": "file(light_of_valor_obelisk_recipe.json)"
+            },
+            "heraldric_bulwark_obelisk": {
+               "recipe": "file(heraldric_bulwark_obelisk_recipe.json)"
+            }
+         }
+      }
+   }
+}

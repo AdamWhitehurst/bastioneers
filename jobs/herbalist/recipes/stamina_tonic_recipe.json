@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "work_units": 15,
+   "recipe_name": "i18n(stonehearth:jobs.herbalist.recipes.stamina_tonic_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.herbalist.recipes.stamina_tonic_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/consumables/stamina_tonic/stamina_tonic.png",
+   "workshop": "stonehearth:herbalist:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+         "material": "herb resource",
+         "count": 12
+      },
+      {
+         "uri": "bastioneers:food:fungi:fine_mushroom_basket",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:consumables:stamina_tonic"
+      }
+   ]
+}

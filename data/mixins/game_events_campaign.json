@@ -1,0 +1,11 @@
+{
+   "can_start": {
+      "test_1": {
+         "kingdom_check": {
+            "type": "deny_if",
+            "item": "kingdom",
+            "value": "bastioneers:kingdoms:bastioneers"
+         	}
+      	}
+   	}
+}

@@ -1,0 +1,40 @@
+{
+   "type": "encounter",
+   "encounter_type": "dialog_tree",
+   "rarity": "common",
+   "in_edge": "bastioneers_expedition_1_dialog",
+   "dialog_tree_info": {
+      "start_node": "msg1",
+      "nodes": {
+         "msg1": {
+            "bulletin": {
+               "title": "i18n(bastioneers:data.gm.campaigns.trader.bastioneers_expedition_1.dialog.title)",
+               "dialog_title": "i18n(bastioneers:data.gm.campaigns.trader.bastioneers_expedition_1.dialog.dialog_title)",
+               "portrait": "file(images/exiolite.png)",
+               "message": "i18n(bastioneers:data.gm.campaigns.trader.bastioneers_expedition_1.dialog.msg1)",
+               "choices": {
+                  "bastioneers:ui.game.common.okay": {
+                     "out_edge": "bastioneers_expedition_1"
+                  },
+                  "bastioneers:ui.game.common.silence": {
+                     "next_node": "msg2"
+                  }
+               }
+            }
+         },
+         "msg2": {
+            "bulletin": {
+               "title": "i18n(bastioneers:data.gm.campaigns.trader.bastioneers_expedition_1.shop_info.title)",
+               "dialog_title": "i18n(bastioneers:data.gm.campaigns.trader.bastioneers_expedition_1.dialog.dialog_title)",
+               "portrait": "file(images/exiolite.png)",
+               "message": "i18n(bastioneers:data.gm.campaigns.trader.bastioneers_expedition_1.dialog.msg2)",
+               "choices": {
+                  "bastioneers:ui.game.common.okay": {
+                     "out_edge": "wait_for_tomorrow_2"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

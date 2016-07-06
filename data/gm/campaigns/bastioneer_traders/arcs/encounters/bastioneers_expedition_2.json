@@ -1,0 +1,132 @@
+{
+   "type": "encounter",
+   "encounter_type": "shop",
+   "rarity": "common",
+   "unique": true,
+   "in_edge": "bastioneers_expedition_2",
+   "out_edge": "wait_for_tomorrow_3",
+   "shop_info": {
+      "name": "i18n(bastioneers:data.gm.campaigns.trader.bastioneers_expedition_2.shop_info.name)",
+      "title": "i18n(bastioneers:data.gm.campaigns.trader.bastioneers_expedition_2.shop_info.title)",
+      "inventory": {
+         "overall_price_multiplier": 3,
+         "entries": [
+            {
+               "items": [
+                  "stonehearth:resources:wood:pine_log"
+               ],
+               "quantity": {
+                  "min": 5,
+                  "max": 10
+               }
+            },
+            {
+               "items": [
+                  "stonehearth:resources:feathers:poyo_feathers"
+               ],
+               "quantity": {
+                  "min": 3,
+                  "max": 8
+               },
+               "price_multiplier": 3
+            },
+            {
+               "items": [
+                  "stonehearth:resources:clay:clay_mound"
+               ],
+               "quantity": {
+                  "min": 10,
+                  "max": 20
+               },
+               "price_multiplier": 2
+            },
+            {
+               "items": [
+                  "stonehearth:resources:fiber:coarse_fiber_bundle"
+               ],
+               "quantity": {
+                  "min": 5,
+                  "max": 20
+               },
+               "price_multiplier": 1
+            },
+            {
+               "items": [
+                  "stonehearth:resources:racoon_pelt"
+               ],
+               "quantity": {
+                  "min": 2,
+                  "max": 10
+               }
+            },
+            {
+               "items": [
+                  "stonehearth:resources:red_fox_pelt"
+               ],
+               "quantity": {
+                  "min": 2,
+                  "max": 10
+               }
+            },
+            {
+               "items": [
+                  "stonehearth:resources:rabbit_pelt"
+               ],
+               "quantity": {
+                  "min": 2,
+                  "max": 3
+               }
+            },
+            {
+               "items": [
+                  "stonehearth:farmer:talisman"
+               ],
+               "quantity": {
+                  "min": 1,
+                  "max": 1
+               },
+               "price_multiplier": 4
+            },
+            {
+               "items": [
+                  "stonehearth:footman:wooden_sword_talisman"
+               ],
+               "quantity": {
+                  "min": 1,
+                  "max": 1
+               },
+               "price_multiplier": 4
+            },
+            {
+               "items": [
+                  "stonehearth:weaver:talisman"
+               ],
+               "quantity": {
+                  "min": 1,
+                  "max": 1
+               },
+               "price_multiplier": 4
+            },
+            {
+               "items": [
+                  "stonehearth:herbalist:talisman"
+               ],
+               "quantity": {
+                  "min": 1,
+                  "max": 1
+               },
+               "price_multiplier": 4
+            },
+            {
+               "items": [
+                  "stonehearth:armor:wooden_shield"
+               ],
+               "quantity": {
+                  "min": 1,
+                  "max": 2
+               }
+            }
+         ]
+      }
+   }
+}

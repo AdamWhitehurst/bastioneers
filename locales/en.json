@@ -1,0 +1,798 @@
+{
+   "kingdom": {
+      "kingdom_name": "Bastioneers",
+      "quote": "From the Earth, Through the Earth, Back to the Earth; always with The Herald.",
+      "long_description2": "Strong as stone and dangerous as the threats they face within their mines. Their culture enforces strict hierarchies and subserviance to the elite. Little is known about their origins or what exactly The Herald is.",
+      "long_description": "These enigmatic, gems of creatures hail from deep within the Earth, proclaiming alleigance to \"The Herald.\" Little is known about the Bastioneers and less about who they serve. Having only recently resurfaced from their unknown origin, they have much to learn about the surface's environment. Can you help them survive the surface? Will you be able to uncover why they've come and why they behave the way they do? How badly do you want to know?",
+      "post_selection_description": " emerge to spread the glory of The Herald..."
+   },
+   "jobs": {
+      "blacksmith": {
+         "blacksmith_description": {
+            "description": "Upon shaping the earth, some find they prefer the heat and power of metalworking over stone masonry. They utilize their powerful hammers to shape metal into armors, weapons, etc.",
+            "requirements": "Level 3 Refineer and a Blacksmith's Hammer, crafted by the Mason."
+         },
+         "recipes": {
+            "bucket_helmet_recipe": {
+               "recipe_name": "Exotic Metal Headpiece",
+               "description": "The pinnacle of form and function",
+               "flavor": "The Herald would swell with pride to look upon this."
+            },
+            "ornate_armor_recipe": {
+               "recipe_name": "Ornate Armor",
+               "description": "An honorable vestament fit for grand protectors of the Herald.",
+               "flavor": "It will blind your enemies."
+            },
+            "reinforced_armor_recipe": {
+               "recipe_name": "Reinforced Armor",
+               "description": "Highly protective, lending courage to those who wear it.",
+               "flavor": "For the Herald!"
+            },
+            "fortified_agility_obelisk_recipe": {
+               "recipe_name": "Fortified Agility Obelisk",
+               "description": "Craft shrine honoring the powerful aspect of The Herald.",
+               "flavor": "Run away!"
+            },
+            "light_of_valor_obelisk_recipe": {
+               "recipe_name": "Light of Valor Obelisk",
+               "description": "Craft shrine honoring the courageous aspect of The Herald.",
+               "flavor": "And we shall spit in our enemies general direction!"
+            },
+            "heraldric_bulwark_obelisk_recipe": {
+               "recipe_name": "Heraldric Obelisk",
+               "description": "Craft shrine honoring the stalwart aspect of The Herald.",
+               "flavor": "We can conquer all our enemies! For their mothers all were hamsters!"
+            },
+            "shrines_name": "Shrines",
+            "mining_helmet_recipe": {
+               "recipe_name": "Mining Helmet",
+               "description": "An essential for any true mineer.",
+               "flavor": "Techmaturgical synergy. Mining necessity."
+            },
+            "earthen_rejuvenation_obelisk_recipe": {
+               "recipe_name": "Earthen Rejuvenation Obelisk",
+               "description": "Construct a shrine to the essense which compels plants to grow and animals to live.",
+               "flavor": "It'll put hair on your chest.... Or leaves."
+            }
+         }
+      },
+      "carpenter": {
+         "carpenter_description": {
+            "description": "Masonry is tiring work. Softer souls are drawn to the supple and flexible nature of wood. The malleable nature of woods lends itself craft finer, prettier furniture and equipment than stone.",
+            "requirements": "Level 5 Refineer and a Carpenter's Saw, crafted by the Blacksmith."
+         },
+         "recipes": {
+            "crate_helmet_recipe": {
+               "recipe_name": "Herald's Woody Helmet",
+               "description": "It fits so perfectly, how can it be anything but a headpiece?",
+               "flavor": "The protection this provides is immeasurable."
+            }
+         },
+         "carpenter_hat": {
+            "display_name": "Carpenter's Hat",
+            "description": "It's quite dusty."
+         }
+      },
+      "cleric": {
+         "cleric_description": {
+            "display_name": "Cleric",
+            "description": "Requires a particular knack for tapping into the strength of others, and the urge to enhance it.",
+            "requirements": "Level 3 Footman and a Cleric's Tome, Crafted by the Herbalist"
+         }
+      },
+      "cook": {
+         "cook_description": {
+            "description": "As with people, tending crops for any amount of time reveals who work well with whom. Cooks coordinate their ingredients into harmonious dishes to keep the rest of the Bastioneers happy.",
+            "requirements": "Level 2 Farmer and a Stoneware Spoon, crafted by the Mason."
+         },
+         "recipes": {
+            "golden_gourd_curry_recipe": {
+               "description": "Are gourds are more edible when cooked?",
+               "recipe_name": "Golden Guord Curry",
+               "flavor": "TODO(flavor!)"
+            },
+            "flat_bread_recipe": {
+               "description": "Unleavened bread made from corn meal",
+               "recipe_name": "Flat Bread"
+            },
+            "meat_tagine_recipe": {
+               "description": "Meat and veggies simmered in a clay pot",
+               "recipe_name": "Meat Stew Tagine"
+            },
+            "vegetable_tagine_recipe": {
+               "description": "Veggies simmered in a clay pot",
+               "recipe_name": "Vegetable Stew Tagine"
+            }
+         }
+      },
+      "farmer": {
+         "farmer_description": {
+            "description": "Spending all their time wandering and stalking through nature, one can't help but long to settle down. Farmers return to the sedentary life with their knowledge of plants. They use that knowledge to grow plants used in cooking, or healing.",
+            "requirements": "Level 2 Herbalist and a Farmer's Hoe, crafted by the Carpenter."
+         },
+         "farmer_hood": {
+            "description": "A basic hood to keep the sun off one's neck while they farm.",
+            "display_name": "Farmer's Hood"
+         }
+      },
+      "footman": {
+         "footman_description": {
+            "description": "Defending The Herald is a necessity, and some find pleasure in killing, so they become Footmen. They focus their bloodlust on looting and defending in the name of The Herald",
+            "requirements": "Level 2 Trapper and a Wooden Practice Sword, crafted by the Carpenter."
+         }
+      },
+      "herbalist": {
+         "herbalist_description": {
+            "description": "Herbalists have discovered they love the fauna of the world. Herbalists use plants to concoct potions that heal and buff stats.",
+            "requirements": "An Herbalist's Staff, crafted by the Carpenter."
+         },
+         "herbalist_hood": {
+            "description": "A nice hood that completes a herbalist's robe",
+            "display_name": "Herbalist's Hat"
+         },
+         "recipes": {
+            "fungi_name": "Fungi",
+            "stones_name": "Stones",
+            "fine_mushroom_colony_recipe": {
+               "description": "Propagate a more nutritious species of edible mushrooms",
+               "flavor": "Let's see if we can't make these things tastier too.",
+               "recipe_name": "Propagate Mushrooms"
+            },
+            "mushroom_colony_recipe": {
+               "description": "Cultivate a colony of edible mushrooms",
+               "flavor": "For when you're tired of eating berries.",
+               "recipe_name": "Cultivate Mushroom Colony"
+            }
+         }
+      },
+      "mason": {
+         "mason_description": {
+            "description": "Wishing to shape the world around them, Masons opt to use stone to craft useful furniture, tools, or ornaments.",
+            "requirements": "Level 2 Refineer and a Mason's Chisel, crafted by the Refineer."
+         },
+         "recipes": {
+            "armor_name": "Armor",
+            "crude_stone_bed_recipe": {
+               "description": "A bed made from stone and wood shavings.",
+               "flavor": "Wood shavings are better than nothing.",
+               "recipe_name": "Crude Stone Bed"
+            },
+            "luxurious_stone_bed_recipe": {
+               "description": "A marvel of recumbent design.",
+               "flavor": "The comforter protects you from the monsters underneath",
+               "recipe_name": "Luxurious Stone Bed"
+            },
+            "makeshift_stone_armor_recipe": {
+               "recipe_name": "Makeshift Stone Armor",
+               "description": "Crafted out of necessity. Prone to breaking.",
+               "flavor": "Its immense weight must be good exercise..."
+            },
+            "basic_stone_armor_recipe": {
+               "recipe_name": "Basic Stone Armor",
+               "description": "A durable armor, still somewhat brittle.",
+               "flavor": "Your back will thank you for wearing this."
+            },
+            "pleasant_stone_bed_recipe": {
+               "description": "An upgraded bed, provides a much more restful sleep.",
+               "flavor": "'Ahhh...' - Everyone who sleeps in this bed.",
+               "recipe_name": "Pleasant Stone Bed"
+            },
+            "stone_sword_recipe": {
+               "description": "A rudimentary stone sword that's good for practicing one's combat. Used to level up to a footman.",
+               "flavor": "More whack than slash.",
+               "recipe_name": "Stone Practice Sword"
+            },
+            "fine_stone_armor_recipe": {
+               "recipe_name": "Fine Stone Armor",
+               "description": "Engineered to be as durable and lightweight as stone armor can be.",
+               "flavor": " "
+            },
+            "refineer_rasp_recipe": {
+               "recipe_name": "Refineer Mallet and Rasp",
+               "description": "Quintessential tools for refineers of every skill level.",
+               "flavor": "\"Why not call it a hammer and chisel?\" \"We're trying to be unique!!\" - Two refineer apprentices "
+            }
+         }
+      },
+      "shepherd": {
+         "shepherd_description": {
+            "description": "Some discover a love for the other creatures of the world. They choose animal husbandry over animal murdering or picking flowers and plants. Shepherds bond to each and every animal they tend, Bastioneers care greatly for animals.",
+            "requirements": "Level 4 Herbalist and a Shepherd's Crook, crafted by the Carpenter."
+         }
+      },
+      "trapper": {
+         "trapper_description": {
+            "description": "With their newfound freedom, some Bastioneers choose to roam far and wide rather than shape the earth aorund them.",
+            "requirements": "Trapper's Knife, crafted by the Mason."
+         }
+      },
+      "potter": {
+         "potter_description": {
+            "description": "Clay is a unique hybrid of hard stone, supple wood, and molten metal that few can utilize. Those who choose to, can craft unique furnitures and vessels.",
+            "requirements": "level 4 Refineer and a Potter's Cutter, crafted by the Mason."
+         },
+         "potter_hat": {
+            "display_name": "Potter Hat",
+            "description": "A heavy, hard helmet for a hard worker."
+         },
+         "recipes": {
+            "stone_bricks_recipe": {
+               "recipe_name": "Stone Bricks",
+               "description": "Craft stones of regular size and shape.",
+               "flavor": "Have you ever thought of making them circular?"
+            }
+         }
+      },
+      "weaver": {
+         "weaver_description": {
+            "description": "It takes a long time among both flora and fauna to learn how to utilize the hides and furs of animals for craft. Weavers are highly regarded among the Bastioneers.",
+            "requirements": "level 3 Shepherd and a Weaver's Spindle, crafted by the Carpenter."
+         },
+         "recipes": {
+            "wicker_basket_recipe": {
+               "description": "Sturdy and lightweight, perfect for the worker on the go.",
+               "flavor": "It matches the dirt on my outfit!",
+               "recipe_name": "Wicker Backpack"
+            },
+            "deep_spelunking_outfit_recipe": {
+               "recipe_name": "Deep Spelunking Outfit",
+               "description": "An upgraded outfit for prideful 'Neers.",
+               "flavor": "Good looking workers are efficient workers."
+            }
+         }
+      },
+      "refineer": {
+         "refineer_outfit": {
+            "display_name": "Refineer Outfit",
+            "description": "Simple and durable yet... still refined."
+         },
+         "recipes": {
+            "refineer_platform_recipe": {
+               "recipe_name": "Refineer's Platform",
+               "description": "For various refining tasks.",
+               "flavor": "It's just the right height for a Bastioneer."
+            },
+            "refineer_lathe_recipe": {
+               "recipe_name": "Refineer's Lathe",
+               "description": "Necessary for refining wood resources.",
+               "flavor": "Wood is a strange resource to 'Neers."
+            },
+            "workbenches_name": "Workbenches",
+            "refining_name": "Refinables",
+            "stone_bricks_recipe": {
+               "recipe_name": "Stone Bricks",
+               "description": "Craft stone into regular shape and size.",
+               "flavor": "For ALL of your assorted stone needs!"
+            },
+            "wood_planks_recipe": {
+               "recipe_name": "Wood Planks",
+               "description": "Craft wood planks into a regular shape and size.",
+               "flavor": "\"I wood like a log of planks, please.\""
+            },
+            "natal_stone_recipe": {
+               "description": "Craft natallium into a gleaming stone, enhancing its aura",
+               "flavor": "Each one has a unique presence which foretells the personality of the 'Neer to come. - Master Refineer Tohpzidium V",
+               "recipe_name": "Cultivate Natal Stone"
+            },
+            "stones_name": "Stone",
+            "clays_name": "Clay",
+            "metals_name": "Metal",
+            "woods_name": "Wood",
+            "tools_name": "Tools"
+         },
+         "refineer_description": {
+            "display_name": "Refineer",
+            "description": "Bastioneers with an innate knowledge of resources are often designated as Refineers to increase output of crafters who rely on refined resources. Master Refineers are highly regarded; you cannot craft fine goods with poor ingredients.",
+            "requirements": "A Refineer's Mallet and Rasp, crafted by the Blacksmith."
+         },
+         "refineer_lathe": {
+            "refineer_lathe_ghost": {
+               "display_name": "Refineer Lathe",
+               "description": "Essential for woodworking."
+            }
+         },
+         "refineer_mallet": {
+            "display_name": "Refineer's Mallet",
+            "description": "It must be rather heavy for a tiny 'Neer."
+         },
+         "refineer_platform": {
+            "refineer_platform_ghost": {
+               "display_name": "Refineer's Platform",
+               "description": "For various refining tasks."
+            }
+         },
+         "refineer_rasp": {
+            "refineer_rasp_talisman": {
+               "display_name": "Mallet and Rasp",
+               "description": "It's hard to chisel stone with your hands, even if they're made of gem."
+            },
+            "display_name": "Refineer's Rasp",
+            "description": "It's hard to chisel stone with your hands, even if they're made of gem."
+         }
+      }
+   },
+   "data": {
+      "buffs": {
+         "courage": {
+            "courage_buff": {
+               "display_name": "Stony Resolve",
+               "description": "Stone armor gives courage at the slight cost of speed."
+            }
+         },
+         "heraldric_bulwark": {
+            "heraldric_bulwark_buff": {
+               "display_name": "Heraldric Bulwark",
+               "description": "An aura of protection shields this 'Neer"
+            }
+         },
+         "light_of_valor": {
+            "light_of_valor_buff": {
+               "display_name": "Light of Valor",
+               "description": "Mystical radiance eminates from this 'Neer"
+            },
+            "earthen_resolve_buff": {
+               "display_name": "Earthen Resolve"
+            }
+         },
+         "fortified_agility": {
+            "fortified_agility_buff": {
+               "display_name": "Fortified Agility",
+               "description": "A light breeze swirls about this 'Neer"
+            }
+         }
+      },
+      "build": {
+         "building_brushes": {
+            "colors": {
+               "#7D6E7F": "Mamba",
+               "#69606D": "Rum",
+               "#574C4E": "Don Juan",
+               "#5F5558": "Don Juan Lite",
+               "#665D5E": "Falcon",
+               "#7C848E": "Bright Slate",
+               "#656F7C": "Raven",
+               "#515865": "Lana Del Grey",
+               "#72798A": "Not-quite Grey",
+               "#5E6875": "Stoney"
+            }
+         }
+      },
+      "commands": {
+         "heraldric_bulwark_buff": {
+            "display_name": "Cast Heraldric Bulwark",
+            "description": "Shields Bastioneers with a protective aura."
+         },
+         "light_of_valor_buff": {
+            "display_name": "Cast Light of Valor",
+            "description": "Shine Bastioneers with a courageous brilliance."
+         },
+         "fortified_agility_buff": {
+            "display_name": "Cast Fortified Agility",
+            "description": "Imbues Bastioneers with a lithe swiftness."
+         }
+      },
+      "bastioneers_population": {
+         "display_name": "The Bastioneers",
+         "greet_title": "[name(i18n_data.citizen)] has been born!"
+      },
+      "gm": {
+         "campaigns": {
+            "bastioneers": {
+               "dialog_nodes": {
+                  "dialog_title": "General Ludmite I",
+                  "helper_title": "The Herald's Expedition",
+                  "bulletin_message": {
+                     "000": "Bastioneers; atten...SHUN. Now that camp is made, it is time to make a settlement! I don't envy you all, this is a dangerous mission. I offer you but a little advice before I leave. Have stony hearts; with some courage and luck, you might survive in this dangerous environment, and bring glory toThe Herald!",
+                     "001": "It would be regrettable if, in your struggles, you lost sight of The Herald glory.",
+                     "002": "You'll face many new and terrifying creatures up here. It's critical to be prepared for anything and everything.",
+                     "003": "The Herald's masons are taught how to craft stone armor. You already know how vital this armor is to our courage and safety. It breaks often, keep a good supply around! Otherwise, the surface creatures will gobble you up!",
+                     "004": "Mining is also essential. It provides nutritious stones and gems and natallium to boot. You will need lots of resources, especially natallium. Your refineer can learn how to turn natallium into natal stones. They will bolster The Herald's numbers!  \"From the Earth, through the Earth, and back to the Earth. Always with The Herald.\" That is the Bastioneers way!",
+                     "005": "The Herald is counting on you. Lots of learning and discovering to be had up here. Keep your eyes wide and your feet swift.",
+                     "006": "I'll check up once you have settled. Glory to The Herald.",
+                     "007": "The Herald is our bastion. May it steel you."
+                  }
+               },
+               "natallium_dialog_nodes": {
+                  "dialog_title": "Bastioneers Commander",
+                  "helper_title": "The Herald's Expedition",
+                  "bulletin_message": {
+                     "msg0": "Hail 'Neers! What great timing, I spy some natallium in your possession. Wonderous! We were worried the surface was void of such precious resource as well. Tell me, has your refineer created a natal stone yet?",
+                     "msg1": "In any case, be aware: 'Neers grow from these mysterious stones. Don't ask me how; that's a secret known only to refineers. Place a natal stone down and give it some time to grow, and eventually out will pop a new 'Neer, fit and ready to serve.",
+                     "msg2": "What did you expect? New citizens would just walk up to your settlement out of nowhere? What a laugh! Besides, you know the how empty our natallium stores have become at home... Right, I'll check up again sometime later. Glory to The Herald.",
+                     "msg1a": "But... How could that if your refineer hasn't learned how yet?"
+                  }
+               },
+               "break_dialog_nodes": {
+                  "dialog_title": "Bastioneers Commander",
+                  "helper_title": "The Herald's Expedition",
+                  "bulletin_message": {
+                     "msg0": "Oi! Hail, 'Neers! Congrats on lasting this long. You may or may not have experienced true battle at this point, but regardless, It have some important information for you to be aware of.",
+                     "msg1": "Battle equipment breaks. It's quite annoying, but nothing is indestructible except the iron will of The Herald's Bastioneers.",
+                     "msg2": "One good thing comes from this unfortunate event, however. The Herald, ever vigilant, acknowledges your sacrifice. The Herald will be pleased by this.",
+                     "msg3": "Keep this in mind, and The Herald will protect you."
+                  }
+               }
+            },
+            "trader": {
+               "bastioneers_expedition_1": {
+                  "shop_info": {
+                     "name": "Explorationeert Exiolite IV",
+                     "title": "The Tired Exiolite II Thanks You and Offers His Goods!"
+                  },
+                  "dialog": {
+                     "dialog_title": "Exhausted Explorationeer Exiolite II",
+                     "msg1": "Ho there, sure is grand seeing some shining faces of The Herald's Gems. I've been up here for quite a while and have practically nothing to show for it! I need some valuable gold before I can return home... But I don't have much,do you think you could help me out?",
+                     "msg2": "Oh.... Well alright then, I understand. I'll try to find some on my own. I just hope I don't stumble upon something more... Hungry first.",
+                     "title": "A Tired-Looking Exploration Stumbles Near."
+                  }
+               },
+               "bastioneers_expedition_2": {
+                  "shop_info": {
+                     "name": "Lieutenant Jaspridium II",
+                     "title": "Lieutenant Jaspridium III Would Like to Trade a Few Resources."
+                  },
+                  "dialog": {
+                     "title": "Lieutenant Jaspridium III Appears in the Distance.",
+                     "dialog_title": "Lieutenant Jaspridium III",
+                     "msg1": "Hail, 'Neers, I have gathered some interesting goods upon my explorationeering. Perhap some would be of use to you.",
+                     "msg2": "Very well, I will be off then."
+                  }
+               },
+               "bastioneers_expedition_3": {
+                  "shop_info": {
+                     "name": "Surface 'Neer Expedition",
+                     "title": "A Band of Surface 'Neers Arrives with Goods to Trade!"
+                  }
+               },
+               "starting_food_donation": {
+                  "donation_dialog_info": {
+                     "dialog_nodes": {
+                        "simple_message": {
+                           "bulletin_message": {
+                              "000": "Hail! This is a fine twist of events. I find the new Explorationeers and I recently found a large amount of surface food! Gee, you look like you could use some, so I'll share. Remember, The Herald needs every single 'Neer to be fighting fit at all times. Glory to The Herald!",
+                              "001": "Hail! This is a fine twist of events. I find the new Explorationeers and I recently found a large amount of surface food! Gee, you look like you could use some, so I'll share. Remember, The Herald cannot afford to lose a single 'Neer. Glory to The Herald!",
+                              "002": "Hail! This is a fine twist of events. I find the new Explorationeers and I recently found a large amount of surface food! Gee, you look like you could use some, so I'll share. Remember, 'Neers are the most precious gem of all. Glory to The Herald!",
+                              "003": "Surface food is strange, but tasty! Try this:",
+                              "004": "Do not miss The Herald, take this incase."
+                           },
+                           "bulletin_title": "An Explorationeer Approaches!",
+                           "dialog_title": "Explorationeer Cadet Garnetite II",
+                           "choice_000": "Okay"
+                        }
+                     }
+                  }
+               },
+               "stonecutter_shop": {
+                  "shop_info": {
+                     "name": "Stone 'Neer Commander Bazzum II",
+                     "title": "\"Neers Bearing Stone Goods Offer Their Wares to Your Settlment."
+                  }
+               },
+               "tannery_shop": {
+                  "shop_info": {
+                     "name": "Animal 'Neering Captain Ferrorite I",
+                     "title": "An Expedition for Fine Animal Goods has Wares to Trade."
+                  }
+               },
+               "woodcutter_shop": {
+                  "shop_info": {
+                     "name": "Colonel Spectricite V",
+                     "title": "An Expedition With Fine Wood Crafts Offers a Trade."
+                  }
+               },
+               "rugs_shop": {
+                  "shop_info": {
+                     "name": "A Group of Animal Trapping 'Neers Would Like to Trade Their Rugs.",
+                     "title": "Trapping 'Neer Goods"
+                  }
+               },
+               "simple_caravan_encounter": {
+                  "title": "Explorationeers with Goods to Trade Have Arrived.",
+                  "message": "Hail [str(i18n_data.town_name)]! Before we return home, we thought we'd offer a little help to you through a trade. Perhaps you would like [str(i18n_data.your_quantity)] [str(i18n_data.your_item)](s) in exchange for [str(i18n_data.my_quantity)] [str(i18n_data.my_item)](s)?"
+               }
+            },
+            "makeshift_stone_armor": {
+               "bulletin_title": "Your Mason Has Learned How to Make Makeshift Stone Armor!"
+            },
+            "basic_stone_armor": {
+               "bulletin_title": "Your Mason Has Learned How to Craft Basic Stone Armor!"
+            },
+            "unlock_natal_stone": {
+               "bulletin_title": "Your Refineer Has Learned How to Craft Natal Stones!"
+            }
+         }
+      }
+   },
+   "entities": {
+      "armor": {
+         "bucket_helmet": {
+            "display_name": "Exotic Metal Headpiece",
+            "description": "The pinnacle of form and function",
+            "bucket_helmet_iconic": {
+               "display_name": "Exotic Metal Headpiece",
+               "description": "The pinnacle of form and function"
+            }
+         },
+         "crate_helmet": {
+            "display_name": "Herald's Woody Helmet",
+            "description": "It fits so perfectly, how can it be anything but a headpiece?",
+            "crate_helmet_iconic": {
+               "display_name": "Herald's Woody Helmet",
+               "description": "It fits so perfectly, how can it be anything but a headpiece?"
+            }
+         },
+         "makeshift_stone_armor": {
+            "display_name": "Makeshift Stone Armor",
+            "description": "Crafted out of necessity. Prone to breaking.",
+            "makeshift_stone_armor_iconic": {
+               "display_name": "Makeshift Stone Armor",
+               "description": "Crafted out of necessity. Prone to breaking."
+            }
+         },
+         "basic_stone_armor": {
+            "display_name": "Basic Stone Armor",
+            "description": "A durable armor, still somewhat brittle.",
+            "basic_stone_armor_iconic": {
+               "display_name": "Basic Stone Armor",
+               "description": "A durable armor, still somewhat brittle."
+            }
+         },
+         "ornate_armor": {
+            "display_name": "Ornate Armor",
+            "description": "An honorable vestament fit for grand protectors of the Herald.",
+            "ornate_armor_iconic": {
+               "display_name": "Ornate Armor",
+               "description": "An honorable vestament fit for grand protectors of the Herald."
+            }
+         },
+         "reinforced_armor": {
+            "display_name": "Reinforced Armor",
+            "description": "Highly protective, lending courage to those who wear it.",
+            "reinforced_armor_iconic": {
+               "display_name": "Reinforced Armor",
+               "description": "Highly protective, lending courage to those who wear it."
+            }
+         },
+         "deep_spelunking_outfit": {
+            "display_name": "Deep Spelunking Outfit",
+            "description": "For those who range far into the earth.",
+            "deep_spelunking_outfit_iconic": {
+               "display_name": "Deep Spelunky Outfit",
+               "description": "For those who range deep within the earth."
+            }
+         },
+         "mining_helmet": {
+            "display_name": "Mining Helmet",
+            "description": "Essential for finding glittering gem veins.",
+            "mining_helmet_iconic": {
+               "display_name": "Mining Helmet",
+               "description": "Essential for finding glittering gem veins."
+            }
+         },
+         "fine_stone_armor": {
+            "display_name": "Fine Stone Armor",
+            "description": "So fine, it's almost a fashion statement.",
+            "fine_stone_armor_iconic": {
+               "display_name": "Fine Stone Armor",
+               "description": "It's almost a fashion statement"
+            }
+         }
+      },
+      "food": {
+         "fungi": {
+            "fine_mushroom_basket": {
+               "description": "Oof, these are heavy!",
+               "display_name": "Basket of Fine Mushrooms"
+            },
+            "fine_mushroom_serving": {
+               "description": "Much tastier than wild mushrooms.",
+               "display_name": "Fine Mushrooms"
+            },
+            "golden_mushroom_basket": {
+               "description": "Don't let these guys spoil!",
+               "display_name": "Golden Mushroom Basket"
+            },
+            "golden_mushroom_serving": {
+               "description": "Don't let these guys spoil!",
+               "display_name": "Golden Mushrooms"
+            },
+            "mushroom_basket": {
+               "description": "Just a big basket of mushrooms.",
+               "display_name": "Basket of Mushrooms"
+            },
+            "mushroom_serving": {
+               "description": "Goes great with a side of berries.",
+               "display_name": "Plate of Mushrooms"
+            }
+         },
+         "soft_stone": {
+            "soft_stone_pile": {
+               "description": "Contains over 9000 minerals to help 'neers grow big and strong!",
+               "display_name": "Soft Stone Pile"
+            }
+         }
+      },
+      "fungi": {
+         "fine_mushroom_colony": {
+            "description": "Infused with stones, for a proper 'neers diet",
+            "display_name": "Quality Mushroom Colony",
+            "unripe_description": "Not ready to be harvested yet."
+         },
+         "golden_mushroom_colony": {
+            "description": "The herbalist says they're infused with The Herald's power",
+            "display_name": "Golden Mushroom Colony",
+            "unripe_description": "Not ready to be harvested yet."
+         },
+         "mushroom_colony": {
+            "description": "Nutritious, but could be tastier",
+            "display_name": "Mushroom Colony",
+            "unripe_description": "Not ready to be harvested yet."
+         }
+      },
+      "furniture": {
+         "crude_stone_bed": {
+            "crude_stone_bed_ghost": {
+               "display_name": "Crude Stone Bed",
+               "description": "I guess wood shavings are better than nothing."
+            }
+         },
+         "kingly_stone_bed": {
+            "kingly_stone_bed_ghost": {
+               "display_name": "Kingly Stone Bed",
+               "description": "Use exponents to express its thread count."
+            }
+         },
+         "luxurious_stone_bed": {
+            "luxurious_stone_bed_ghost": {
+               "display_name": "Luxurious Stone Bed",
+               "description": "You won't want to leave."
+            }
+         },
+         "pleasant_stone_bed": {
+            "pleasant_stone_bed_ghost": {
+               "display_name": "Pleasant Stone Bed",
+               "description": "A comfortable sleep accomodation."
+            }
+         }
+      },
+      "gizmos": {
+         "camp_standard": {
+            "camp_standard_ghost": {
+               "display_name": "The Herald Sigil",
+               "description": "May it steel us."
+            }
+         }
+      },
+      "resources": {
+         "natallium": {
+            "description": "It holds immense, curious power",
+            "display_name": "Natallium"
+         }
+      },
+      "storage": {
+         "wicker_basket": {
+            "wicker_basket_ghost": {
+               "display_name": "Wicker Basket",
+               "description": "Sturdy and lightweight, perfect for the worker on the go!"
+            }
+         }
+      },
+      "stones": {
+         "natal_stone": {
+            "description": "A stone that will give rise to a new 'Neer.",
+            "display_name": "Natal Stone",
+            "natal_stone_iconic": {
+               "description": "A stone from which every Bastioneer is born.",
+               "display_name": "Natal Stone"
+            }
+         }
+      },
+      "shrines": {
+         "heraldric_bulwark_obelisk": {
+            "heraldric_bulwark_obelisk_ghost": {
+               "description": "A tower honoring the steadfastness of The herald.",
+               "display_name": "Heraldric Bulwark obelisk"
+            }
+         },
+         "light_of_valor_obelisk": {
+            "light_of_valor_obelisk_ghost": {
+               "description": "A tower honoring the iron-will of The herald.",
+               "display_name": "Light of Valor obelisk"
+            }
+         },
+         "fortified_agility_obelisk": {
+            "fortified_agility_obelisk_ghost": {
+               "description": "A tower honoring the swiftness of The herald.",
+               "display_name": "Fortified Agility obelisk"
+            }
+         },
+         "earthen_rejuvenation_obelisk": {
+            "earthen_rejuvenation_obelisk_ghost": {
+               "display_name": "Earthen Rejuvination Obelisk",
+               "description": "It exudes health and well-being."
+            }
+         }
+      },
+      "wealth": {
+         "buhblee_gem": {
+            "description": "Contains some essense of The Herald.",
+            "display_name": "Buhblee Gem"
+         },
+         "jollee_gem": {
+            "description": "Contains some essense of The Herald.",
+            "display_name": "Jollee Gem"
+         },
+         "Mossee_gem": {
+            "description": "Contains some essense of The Herald.",
+            "display_name": "Mosse Gem"
+         },
+         "perplee_gem": {
+            "description": "Contains some essense of The Herald.",
+            "display_name": "Perplee Gem"
+         },
+         "mossee_gem": {
+            "display_name": "Mossee Gem",
+            "description": "Essense of the Earth."
+         }
+      },
+      "weapons": {
+         "stone_sword": {
+            "description": "A rudimentary weapon thats good for practicing combat skills.",
+            "display_name": "Stone Practice Sword",
+            "stone_sword_iconic": {
+               "description": "More whack than slash.",
+               "display_name": "Stone Practice Sword"
+            },
+            "stone_sword_talisman": {
+               "description": "A rudimentary weapon thats good for practicing combat skills.",
+               "display_name": "Stone Practice Sword"
+            }
+         }
+      },
+      "refined": {
+         "wood_planks": {
+            "display_name": "Wood Planks",
+            "description": "Regularly shaped pieces of wood."
+         }
+      }
+   },
+   "ui": {
+      "game": {
+         "bulletin": {
+            "durability": {
+               "break_title": "Oh No!",
+               "break_message": "[str(i18n_data.name)]'s [str(i18n_data.item)] has broken!"
+            }
+         },
+         "entities": {
+            "item_categories": {
+               "natal_stone": "Natal Stone"
+            }
+         },
+         "common": {
+            "hail": "Glory to The Herald!",
+            "okay": "Okay",
+            "yessir": "Yessir!",
+            "nosir": "Negative",
+            "silence": "..."
+         },
+         "menu": {
+            "crafter_menu": {
+               "items": {
+                  "refineer": {
+                     "display_name": "Refineer Craft Menu",
+                     "description": "Refine raw materials for other crafters.",
+                     "required_job_text": "Requires a refineer"
+                  }
+               }
+            }
+         }
+      },
+      "data": {
+         "constants": {
+            "wood_resource_name": "Wood Planks",
+            "stone_bricks_resource_name": "Stone Bricks"
+         }
+      }
+   }
+}

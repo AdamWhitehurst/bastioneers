@@ -1,0 +1,37 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "item": {
+         "category": "wealth",
+         "stacks": 2
+      },
+      "stonehearth:material": {
+         "tags": "jollee_gem gem wealth"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(jollee_gem.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "display_name": "i18n(bastioneers:entities.wealth.jollee_gem.display_name)",
+         "description": "i18n(bastioneers:entities.wealth.jollee_gem.description)",
+         "icon": "file(jollee_gem.png)"
+      }
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 10,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      }
+   }
+}

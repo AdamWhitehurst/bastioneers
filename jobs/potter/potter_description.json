@@ -1,0 +1,15 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:potter",
+   "requirements": "i18n(bastioneers:jobs.potter.potter_description.requirements)",
+   "description": "i18n(bastioneers:jobs.potter.potter_description.description)",
+   "parent_job": "stonehearth:jobs:mason",
+   "parent_level_requirement": 4,
+   "crafter": {
+      "recipe_list": "file(recipes/recipes.json)"
+   },
+   "equipment": {
+      "helmet": "file(potter_hat)",
+      "torso": "file(potter_outfit)"
+   }
+}

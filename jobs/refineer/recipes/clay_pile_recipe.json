@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "work_units": 2,
+   "recipe_name": "i18n(stonehearth:jobs.potter.recipes.clay_pile_recipe.recipe_name)",
+   "description": "i18n(stonehearth:jobs.potter.recipes.clay_pile_recipe.description)",
+   "flavor": "",
+   "portrait": "/stonehearth/entities/containers/clay_pile/clay_pile.png",
+   "workshop": "bastioneers:refineer:platform",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "material": "raw_clay resource",
+         "count": 18
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:containers:clay_pile"
+      }
+   ]
+}

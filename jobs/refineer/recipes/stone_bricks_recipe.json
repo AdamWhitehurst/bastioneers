@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "work_units": 2,
+   "recipe_name": "i18n(bastioneers:jobs.refineer.recipes.stone_bricks_recipe.recipe_name)",
+   "description": "i18n(bastioneers:jobs.refineer.recipes.stone_bricks_recipe.description)",
+   "flavor": "i18n(bastioneers:jobs.refineer.recipes.stone_bricks_recipe.flavor)",
+   "portrait": "/stonehearth/entities/refined/stone_bricks/stone_bricks.png",
+   "workshop": "bastioneers:refineer:platform",
+   "level_requirement": 0,
+   "ingredients": [
+      {
+         "material": "raw_stone resource",
+         "count": 3
+      }
+   ],
+   "produces": [
+      {
+         "item": "stonehearth:refined:stone_bricks"
+      }
+   ]
+}

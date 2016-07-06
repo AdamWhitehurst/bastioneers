@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "work_units": 2,
+   "recipe_name": "i18n(bastioneers:jobs.refineer.recipes.wood_planks_recipe.recipe_name)",
+   "description": "i18n(bastioneers:jobs.refineer.recipes.wood_planks_recipe.description)",
+   "flavor": "i18n(bastioneers:jobs.refineer.recipes.wood_planks_recipe.flavor)",
+   "portrait": "/bastioneers/entities/refined/wood_planks/wood_planks.png",
+   "workshop": "bastioneers:refineer:platform",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+         "material": "raw_wood resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "bastioneers:refined:wood_planks"
+      }
+   ]
+}

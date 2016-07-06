@@ -1,0 +1,26 @@
+{
+   "mixins": "/stonehearth/jobs/carpenter/recipes/recipes.json",
+   "craftable_recipes": {
+      "storage": {
+         "recipes": {
+            "log_pile": {
+               "recipe": ""
+            }
+         }
+      },
+      "tools_weapons": {
+         "recipes": {
+            "mason_chisel": {
+               "recipe": ""
+            }
+         }
+      },
+      "armor": {
+         "recipes": {
+            "crate_helmet": {
+               "recipe": "file(crate_helmet_recipe.json)"
+            }
+         }
+      }
+   }
+}

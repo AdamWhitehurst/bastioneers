@@ -1,0 +1,33 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "unit_info": {
+         "description": "i18n(stonehearth:jobs.worker.worker_outfit_3.description)",
+         "icon": "file(worker_outfit_3.png)",
+         "display_name": "i18n(stonehearth:jobs.worker.worker_outfit_3.display_name)"
+      },
+      "render_info": {},
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(worker_outfit_3.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(worker_outfit_3.qb)"
+            ]
+         }
+      },
+      "stonehearth:material": {
+         "tags": "cloth"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "torso",
+         "render_type": "merge_with_model"
+      }
+   }
+}

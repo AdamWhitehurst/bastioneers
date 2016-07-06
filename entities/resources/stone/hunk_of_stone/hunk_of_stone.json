@@ -1,0 +1,9 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:material": {
+         "tags": "stockpile_stone raw_stone resource raw_material",
+         "tags_modified": true
+      }
+   }
+}

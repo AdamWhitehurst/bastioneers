@@ -1,0 +1,28 @@
+{
+   "components": {
+      "unit_info": {
+         "icon": "file(leather_vest.png)"
+      },
+         "bastioneers:durability": {
+         "total_durability": 400
+      },
+      "model_variants": {
+         "default": {
+            "layer": "armor",
+            "transparent": "true",
+            "mixintype_models": "override",
+            "models": [
+               "file(leather_vest.qb)"
+            ]
+         },
+         "female": {
+            "layer": "armor",
+            "transparent": "true",
+            "mixintype_models": "override",
+            "models": [
+               "file(leather_vest.qb)"
+            ]
+         }
+      }
+   }
+}

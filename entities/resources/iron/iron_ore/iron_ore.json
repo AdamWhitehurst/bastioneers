@@ -1,0 +1,9 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:material": {
+"tags_modified": true,
+         "tags": "stockpile_ore iron ore resource raw_material"
+      }
+   }
+}

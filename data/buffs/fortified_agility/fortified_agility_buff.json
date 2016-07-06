@@ -1,0 +1,17 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(bastioneers:data.buffs.fortified_agility.fortified_agility_buff.display_name)",
+   "description": "i18n(bastioneers:data.buffs.fortified_agility.fortified_agility_buff.description)",
+   "icon": "file(fortified_agility_buff.png)",
+   "duration": "4h",
+   "modifiers": {
+      "courage": {
+         "add": 10
+      }
+   },
+   "effect": "stonehearth:effects:tonic_buff_added",
+   "tags": [
+      "swift fortified agility"
+   ]
+}

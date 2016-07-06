@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "work_units": 15,
+   "recipe_name": "i18n(bastioneers:jobs.blacksmith.recipes.heraldric_bulwark_obelisk_recipe.recipe_name)",
+   "description": "i18n(bastioneers:jobs.blacksmith.recipes.heraldric_bulwark_obelisk_recipe.description)",
+   "flavor": "i18n(bastioneers:jobs.blacksmith.recipes.heraldric_bulwark_obelisk_recipe.flavor)",
+   "portrait": "/bastioneers/entities/shrines/heraldric_bulwark_obelisk/heraldric_bulwark_obelisk.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "stonehearth:decoration:tower_brazier",
+         "count": 1
+      },
+      {
+         "uri": "bastioneers:gems:perplee_gem",
+         "count": 3
+      }
+   ],
+   "produces": [
+      {
+         "item": "bastioneers:shrines:heraldric_bulwark_obelisk"
+      }
+   ]
+}

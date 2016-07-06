@@ -1,0 +1,27 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "display_name": "i18n(bastioneers:entities.armor.mining_helmet.mining_helmet_iconic.display_name)",
+         "description": "i18n(bastioneers:entities.armor.mining_helmet.mining_helmet_iconic.description)",
+         "icon": "file(mining_helmet.png)"
+      },
+      "item": {
+         "category": "armor"
+      },
+      "stonehearth:material": {
+         "tags": "armor heavy_armor"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(mining_helmet_iconic.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
+      }
+   }
+}

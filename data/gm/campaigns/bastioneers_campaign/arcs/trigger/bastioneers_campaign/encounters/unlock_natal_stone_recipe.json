@@ -1,0 +1,11 @@
+{
+   "type": "encounter",
+   "encounter_type": "unlock_recipe",
+   "in_edge": "unlock_natal_stone_recipe",
+   "out_edge": "",
+   "unlock_recipe_info": {
+      "job": "bastioneers:jobs:refineer",
+      "recipe_key": "stone:natal_stone",
+      "bulletin_title": "i18n(bastioneers:data.gm.campaigns.unlock_natal_stone.bulletin_title)"
+   }
+}

@@ -1,0 +1,14 @@
+{
+   "bastioneers:skin:hilight" : {
+      "color" : "#B4A068"
+   },
+   "bastioneers:skin:midtone" : {
+      "color" : "#9F8642"
+   },
+   "bastioneers:skin:shadows" : {
+      "color" : "#826D32"
+   },
+   "bastioneers:skin:blush" : {
+      "color" : "#B4A068"
+   }   
+}

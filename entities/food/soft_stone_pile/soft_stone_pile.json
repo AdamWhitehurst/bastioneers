@@ -1,0 +1,47 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "display_name": "i18n(bastioneers:entities.food.soft_stone.soft_stone_pile.display_name)",
+         "description": "i18n(bastioneers:entities.food.soft_stone.soft_stone_pile.description)",
+         "icon": "file(soft_stone_pile.png)"
+      },
+      "item": {
+         "category": "food",
+         "stacks": 1
+      },
+      "stonehearth:material": {
+         "tags": "stockpile_stone food edible"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(soft_stone_pile.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:item": {
+         "category": "food",
+         "destroy_on_uncarry": false
+      },
+      "stonehearth:food": {
+         "stonehearth:sitting_on_chair": {
+            "satisfaction": 32
+         },
+         "default": {
+            "satisfaction": 25
+         }
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 0,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": false
+         }
+      }
+   }
+}

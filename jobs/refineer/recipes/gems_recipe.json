@@ -1,0 +1,21 @@
+{
+   "type": "recipe",
+   "work_units": 2,
+   "recipe_name": "i18n(bastioneers:jobs.potter.recipes.gems_recipe.recipe_name)",
+   "description": "i18n(bastioneers:jobs.potter.recipes.gems_recipe.description)",
+   "flavor": "i18n(bastioneers:jobs.potter.recipes.gems_recipe.flavor)",
+   "portrait": "/stonehearth/entities/refined/gems/gems.png",
+   "workshop": "bastioneers:refineer:refineer_platform",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "bastioneers:resources:geode",
+         "count": 3
+      }
+   ],
+   "produces": [
+      {
+         "item": "bastioneers:refined:gems"
+      }
+   ]
+}

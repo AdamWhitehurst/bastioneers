@@ -1,0 +1,27 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "display_name": "i18n(bastioneers:entities.armor.deep_spelunking_outfit.deep_spelunking_outfit_iconic.display_name)",
+         "description": "i18n(bastioneers:entities.armor.deep_spelunking_outfit.deep_spelunking_outfit_iconic.description)",
+         "icon": "file(deep_spelunking_outfit.png)"
+      },
+      "item": {
+         "category": "armor"
+      },
+      "stonehearth:material": {
+         "tags": "armor heavy_armor"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(deep_spelunking_outfit_iconic.qb)"
+            ]
+         }
+      },
+      "mob": {
+         "model_origin": { "x": -0.05, "y": 0, "z": 0.05 }
+      }
+   }
+}

@@ -1,0 +1,19 @@
+{
+   "mixins": "/stonehearth/jobs/potter/recipes/recipes.json",
+   "craftable_recipes": {
+      "storage": {
+         "recipes": {
+            "clay_pile": {
+               "recipe": ""
+            }
+         }
+      },
+      "building_parts": {
+         "recipes": {
+            "clay_bricks": {
+               "recipe": ""
+            }
+         }
+      }
+   }
+}

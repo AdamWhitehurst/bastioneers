@@ -1,0 +1,23 @@
+{
+   "components": {
+         "bastioneers:durability": {
+         "total_durability": 400
+      },
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "true",
+            "models": [
+               "file(silver_circlet.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "true",
+            "models": [
+               "file(silver_circlet.qb)"
+            ]
+         }
+      }
+   }
+}

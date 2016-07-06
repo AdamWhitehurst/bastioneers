@@ -1,0 +1,88 @@
+{
+   "craftable_recipes": {
+      "workbenches": {
+         "ordinal": 1,
+         "name": "i18n(bastioneers:jobs.refineer.recipes.workbenches_name)",
+         "recipes": {
+            "refineer_platform": {
+               "recipe": "file(refineer_platform_recipe.json)"
+            }
+         }
+      },
+      "stone": {
+         "ordinal": 2,
+         "name": "i18n(bastioneers:jobs.refineer.recipes.stones_name)",
+         "recipes": {
+            "stone_bricks": {
+               "recipe": "file(stone_bricks_recipe.json)"
+            },
+            "stone_pile": {
+               "recipe": "file(stone_pile_recipe.json)"
+            },
+            "natal_stone": {
+               "recipe": "file(natal_stone_recipe.json)"
+            }
+         }
+      },
+      "clay": {
+         "ordinal": 3,
+         "name": "i18n(bastioneers:jobs.refineer.recipes.clays_name)",
+         "recipes": {
+            "clay_bricks": {
+               "recipe": "file(clay_bricks_recipe.json)"
+            },
+            "clay_pile": {
+               "recipe": "file(clay_pile_recipe.json)"
+            }
+         }
+      },
+      "metal": {
+         "ordinal": 4,
+         "name": "i18n(bastioneers:jobs.refineer.recipes.metals_name)",
+         "recipes": {
+            "copper_ingot": {
+               "recipe": "file(copper_ingot_recipe.json)"
+            },
+            "tin_ingot": {
+               "recipe": "file(tin_ingot_recipe.json)"
+            },
+            "bronze_ingot": {
+               "recipe": "file(bronze_ingot_recipe.json)"
+            },
+            "iron_ingot": {
+               "recipe": "file(iron_ingot_recipe.json)"
+            },
+            "silver_ingot": {
+               "recipe": "file(silver_ingot_recipe.json)"
+            },
+            "gold_ingot": {
+               "recipe": "file(gold_ingot_recipe.json)"
+            },
+            "steel_ingot": {
+               "recipe": "file(steel_ingot_recipe.json)"
+            }
+         }
+      },
+      "wood": {
+         "ordinal": 5,
+         "name": "i18n(bastioneers:jobs.refineer.recipes.woods_name)",
+         "recipes": {
+            "wood_planks": {
+               "recipe": "file(wood_planks_recipe.json)"
+            },
+            "log_pile": {
+               "recipe": "file(log_pile_recipe.json)"
+            }
+         }
+      },
+      "tools": {
+         "ordinal": 6,
+         "name": "i18n(bastioneers:jobs.refineer.recipes.tools_name)",
+         "recipes": {
+            "mason_chisel": {
+               "recipe": "file(mason_chisel_recipe.json)"
+            }
+         }
+      }
+   }
+}

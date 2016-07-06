@@ -1,0 +1,26 @@
+{
+   "type": "arc",
+   "rarity": "common",
+   "encounters": {
+      "wait for afternoon": "file(encounters/wait_for_afternoon.json)",
+      "starting food donation": "file(encounters/starting_food_donation.json)",
+      "wait for tomorrow 1": "file(encounters/wait_for_next_day_1.json)",
+      "wait for tomorrow 2": "file(encounters/wait_for_next_day_2.json)",
+      "wait for tomorrow 3": "file(encounters/wait_for_next_day_3.json)",
+      "bastioneers_expedition": "file(encounters/bastioneers_expedition.json)",
+      "bastioneers_expedition_1": "file(encounters/bastioneers_expedition_1.json)",
+      "bastioneers_expedition_2": "file(encounters/bastioneers_expedition_2.json)",
+      "bastioneers_expedition_3": "file(encounters/bastioneers_expedition_3.json)",
+      "wait_for_shops": "file(encounters/wait_for_shops.json)",
+      "spawn shop": "file(encounters/spawn_next_shop.json)",
+      "select shop": "file(encounters/select_shop.json)",
+      "woodcutter": "file(encounters/woodcutter_shop.json)",
+      "stonecutter": "file(encounters/stonecutter_shop.json)",
+      "tannery": "file(encounters/tannery_shop.json)",
+      "rugs": "file(encounters/rugs_shop.json)",
+      "simple_caravan": "file(encounters/simple_caravan_encounter.json)",
+      "returning_trader": "file(encounters/returning_trader_encounter.json)",
+      "bastioneers_expedition_1_dialog": "file(encounters/bastioneers_expedition_1_dialog.json)",
+      "bastioneers_expedition_2_dialog": "file(encounters/bastioneers_expedition_2_dialog.json)"
+   }
+}

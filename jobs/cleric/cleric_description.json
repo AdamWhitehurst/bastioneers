@@ -1,0 +1,12 @@
+{
+	"type": "job",
+   "mixins": "stonehearth:jobs:cleric",
+   "display_name": "i18n(bastioneers:jobs.cleric.cleric_description.display_name)",
+   "description": "i18n(bastioneers:jobs.cleric.cleric_description.description)",
+   "requirements": "i18n(bastioneers:jobs.cleric.cleric_description.requirements)",
+   "parent_level_requirement": 3,
+   "parent_job": "stonehearth:jobs:footman",
+   "equipment": {
+      "torso": "file(cleric_outfit)"
+   }
+}

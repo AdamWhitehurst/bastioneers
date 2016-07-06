@@ -1,0 +1,72 @@
+{
+   "type": "encounter",
+   "encounter_type": "dialog_tree",
+   "rarity": "common",
+   "in_edge": "natallium_help_dialog",
+   "dialog_tree_info": {
+      "start_node": "msg0",
+      "nodes": {
+         "msg0": {
+            "bulletin": {
+               "title": "i18n(bastioneers:data.gm.campaigns.bastioneers.natallium_dialog_nodes.helper_title)",
+               "dialog_title": "i18n(bastioneers:data.gm.campaigns.bastioneers.natallium_dialog_nodes.dialog_title)",
+               "portrait": "file(images/bastioneer_commander.png)",
+               "message": "i18n(bastioneers:data.gm.campaigns.bastioneers.natallium_dialog_nodes.bulletin_message.msg0)",
+               "choices": {
+                  "bastioneers:ui.game.common.yessir": {
+                     "next_node": "msg1a"
+                  },
+                  "bastioneers:ui.game.common.nosir": {
+                     "next_node": "msg1b"
+                  }
+               }
+            }
+         },
+         "msg1a": {
+            "bulletin": {
+               "title": "i18n(bastioneers:data.gm.campaigns.bastioneers.natallium_dialog_nodes.helper_title)",
+               "dialog_title": "i18n(bastioneers:data.gm.campaigns.bastioneers.natallium_dialog_nodes.dialog_title)",
+               "portrait": "file(images/bastioneer_commander.png)",
+               "message": "i18n(bastioneers:data.gm.campaigns.bastioneers.natallium_dialog_nodes.bulletin_message.msg1a)",
+               "choices": {
+                  "bastioneers:ui.game.common.silence": {
+                     "next_node": "msg1b"
+                  }
+               }
+            }
+         },
+         "msg1b": {
+            "bulletin": {
+               "title": "i18n(bastioneers:data.gm.campaigns.bastioneers.natallium_dialog_nodes.helper_title)",
+               "dialog_title": "i18n(bastioneers:data.gm.campaigns.bastioneers.natallium_dialog_nodes.dialog_title)",
+               "portrait": "file(images/bastioneer_commander.png)",
+               "message": "i18n(bastioneers:data.gm.campaigns.bastioneers.natallium_dialog_nodes.bulletin_message.msg1)",
+               "choices": {
+                  "bastioneers:ui.game.common.okay": {
+                     "next_node": "msg2"
+                  }
+               }
+            }
+         },
+         "msg2": {
+            "bulletin": {
+               "title": "i18n(bastioneers:data.gm.campaigns.bastioneers.natallium_dialog_nodes.helper_title)",
+               "dialog_title": "i18n(bastioneers:data.gm.campaigns.bastioneers.natallium_dialog_nodes.dialog_title)",
+               "portrait": "file(images/bastioneer_commander.png)",
+               "message": "i18n(bastioneers:data.gm.campaigns.bastioneers.natallium_dialog_nodes.bulletin_message.msg2)",
+               "choices": {
+                  "bastioneers:ui.game.common.hail": {
+                     "out_edge": {
+                        "type": "trigger_many",
+                        "out_edges": [
+                           "wait_for_settled_net_worth",
+                           "unlock_natal_stone_recipe"
+                        ]
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

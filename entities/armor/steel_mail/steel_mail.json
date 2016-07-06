@@ -1,0 +1,28 @@
+{
+   "components": {
+      "unit_info": {
+         "icon": "file(steel_mail.png)"
+      },
+      "bastioneers:durability": {
+         "total_durability": 400
+      },
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "true",
+            "mixintype_models": "override",
+            "models": [
+               "file(steel_mail.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "true",
+            "mixintype_models": "override",
+            "models": [
+               "file(steel_mail.qb)"
+            ]
+         }
+      }
+   }
+}

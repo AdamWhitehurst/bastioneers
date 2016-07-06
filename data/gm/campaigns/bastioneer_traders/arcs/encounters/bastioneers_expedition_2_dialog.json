@@ -1,0 +1,40 @@
+{
+   "type": "encounter",
+   "encounter_type": "dialog_tree",
+   "rarity": "common",
+   "in_edge": "bastioneers_expedition_2_dialog",
+   "dialog_tree_info": {
+      "start_node": "msg1",
+      "nodes": {
+         "msg1": {
+            "bulletin": {
+               "title": "i18n(bastioneers:data.gm.campaigns.trader.bastioneers_expedition_2.dialog.title)",
+               "dialog_title": "i18n(bastioneers:data.gm.campaigns.trader.bastioneers_expedition_2.dialog.dialog_title)",
+               "portrait": "file(images/jaspridium.png)",
+               "message": "i18n(bastioneers:data.gm.campaigns.trader.bastioneers_expedition_2.dialog.msg1)",
+               "choices": {
+                  "bastioneers:ui.game.common.yessir": {
+                     "out_edge": "bastioneers_expedition_2"
+                  },
+                  "bastioneers:ui.game.common.nosir": {
+                     "next_node": "msg2"
+                  }
+               }
+            }
+         },
+         "msg2": {
+            "bulletin": {
+               "title": "i18n(bastioneers:data.gm.campaigns.trader.bastioneers_expedition_2.dialog.title)",
+               "dialog_title": "i18n(bastioneers:data.gm.campaigns.trader.bastioneers_expedition_2.dialog.dialog_title)",
+               "portrait": "file(images/jaspridium.png)",
+               "message": "i18n(bastioneers:data.gm.campaigns.trader.bastioneers_expedition_2.dialog.msg2)",
+               "choices": {
+                  "bastioneers:ui.game.common.yessir": {
+                     "out_edge": "wait_for_tomorrow_3"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

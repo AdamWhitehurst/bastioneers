@@ -1,0 +1,14 @@
+{
+   "type": "arc",
+   "rarity": "common",
+   "encounters": {
+      "start": "file(encounters/start.json)",
+      "helper_dialog": "file(encounters/helper_dialog.json)",
+      "natallium_help_dialog": "file(encounters/natallium_help_dialog.json)",
+      "unlock_basic_stone_armor_recipe": "file(encounters/unlock_basic_stone_armor_recipe.json)",
+      "unlock_makeshift_stone_armor_recipe": "file(encounters/unlock_makeshift_stone_armor_recipe.json)",
+      "unlock_natal_stone_recipe": "file(encounters/unlock_natal_stone_recipe.json)",
+      "wait_for_natallium": "file(encounters/wait_for_natallium.json)",
+      "wait_for_settled_net_worth": "file(encounters/wait_for_settled_net_worth.json)"
+   }
+}

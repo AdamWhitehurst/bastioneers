@@ -1,0 +1,17 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(bastioneers:data.buffs.light_of_valor.light_of_valor_buff.display_name)",
+   "description": "i18n(bastioneers:data.buffs.light_of_valor.light_of_valor_buff.description)",
+   "icon": "file(light_of_valor_buff.png)",
+   "duration": "2h",
+   "modifiers": {
+      "courage": {
+         "add": 10
+      }
+   },
+   "effect": "stonehearth:effects:tonic_buff_added",
+   "tags": [
+      "courageous light_of_valor valor"
+   ]
+}

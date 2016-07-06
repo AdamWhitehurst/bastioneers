@@ -1,0 +1,8 @@
+{
+   "components": {
+      "stonehearth:material": {
+      	"tags_modified": true,
+         "tags": "stone brick resource refined stockpile_refined_refineer"
+      }
+   }
+}

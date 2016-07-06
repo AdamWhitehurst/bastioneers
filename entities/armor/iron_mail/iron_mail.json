@@ -1,0 +1,28 @@
+{
+   "components": {
+      "unit_info": {
+         "icon": "file(iron_mail.png)"
+      },
+         "bastioneers:durability": {
+         "total_durability": 450
+      },
+      "model_variants": {
+         "default": {
+            "layer": "armor",
+            "transparent": "true",
+            "mixintype_models": "override",
+            "models": [
+               "file(iron_mail.qb)"
+            ]
+         },
+         "female": {
+            "layer": "armor",
+            "transparent": "true",
+            "mixintype_models": "override",
+            "models": [
+               "file(iron_mail.qb)"
+            ]
+         }
+      }
+   }
+}

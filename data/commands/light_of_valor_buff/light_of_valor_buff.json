@@ -1,0 +1,14 @@
+{
+	"type": "command",
+	"name": "light_of_valor_buff",
+	"display_name": "i18n(bastioneers:data.commands.light_of_valor_buff.display_name)",
+	"description": "i18n(bastioneers:data.commands.light_of_valor_buff.description)",
+	"icon": "file(light_of_valor_buff.png)",
+	"action": "call",
+	"function": "buff_command",
+	"object": "bastioneers.piety",
+	"args": [
+		"{{self}}",
+		"bastioneers:buffs:light_of_valor"
+	]
+}

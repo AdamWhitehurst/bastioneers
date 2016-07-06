@@ -1,0 +1,25 @@
+{
+   "type": "recipe",
+   "work_units": 15,
+   "recipe_name": "i18n(bastioneers:jobs.refineer.recipes.natal_stone_recipe.recipe_name)",
+   "description": "i18n(bastioneers:jobs.refineer.recipes.natal_stone_recipe.description)",
+   "flavor": "i18n(bastioneers:jobs.refineer.recipes.natal_stone_recipe.flavor)",
+   "portrait": "/bastioneers/entities/refined/natal_stone/natal_stone.png",
+   "workshop": "stonehearth:refineer:platform",
+   "manual_unlock": true,
+   "ingredients": [
+      {
+         "uri": "bastioneers:resources:natallium",
+         "count": 4
+      },
+      {
+         "uri": "bastioneers:food:soft_stone:soft_stone_pile",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "bastioneers:refined:natal_stone"
+      }
+   ]
+}
