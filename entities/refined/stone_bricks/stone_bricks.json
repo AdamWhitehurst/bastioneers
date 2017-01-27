@@ -1,8 +1,12 @@
 {
-   "components": {
-      "stonehearth:material": {
-      	"tags_modified": true,
-         "tags": "stone brick resource refined stockpile_refined_refineer"
+   "componenents": {
+      "stonehearth:stacks": {
+         "max_stacks": 30
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "material_tags": "stone brick resource refined stockpile_refined_refineer"
       }
    }
 }

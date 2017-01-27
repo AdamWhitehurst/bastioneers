@@ -2,17 +2,6 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "unit_info": {
-         "display_name": "i18n(bastioneers:entities.food.fungi.fine_mushroom_serving.display_name)",
-         "description": "i18n(bastioneers:entities.food.fungi.fine_mushroom_serving.description)",
-         "icon": "file(fine_mushroom_serving.png)"
-      },
-      "item": {
-         "category": "food"
-      },
-      "stonehearth:material": {
-         "tags": "food"
-      },
       "model_variants": {
          "default": {
             "models": [
@@ -40,6 +29,14 @@
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"
          }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(bastioneers:entities.food.fungi.fine_mushroom_serving.display_name)",
+         "description": "i18n(bastioneers:entities.food.fungi.fine_mushroom_serving.description)",
+         "icon": "file(fine_mushroom_serving.png)",
+         "is_item": true,
+         "category": "food",
+         "material_tags": "food"
       }
    }
 }

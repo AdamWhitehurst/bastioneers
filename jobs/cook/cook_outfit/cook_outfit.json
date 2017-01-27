@@ -2,11 +2,6 @@
    "type": "entity",
    "mixins": "stonehearth:mixins:item_properties",
    "components": {
-      "unit_info": {
-         "display_name": "i18n(stonehearth:jobs.cook.cook_outfit.display_name)",
-         "description": "i18n(stonehearth:jobs.cook.cook_outfit.description)",
-         "icon": "file(cook_outfit.png)"
-      },
       "render_info": {},
       "model_variants": {
          "default": {
@@ -28,6 +23,13 @@
       "stonehearth:equipment_piece": {
          "slot": "torso",
          "render_type": "merge_with_model"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:jobs.cook.cook_outfit.display_name)",
+         "description": "i18n(stonehearth:jobs.cook.cook_outfit.description)",
+         "icon": "file(cook_outfit.png)"
       }
    }
 }

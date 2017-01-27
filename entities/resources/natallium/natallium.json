@@ -8,24 +8,12 @@
             "/stonehearth/data/materials/material_maps/resources_material_map.json"
          ]
       },
-      "item": {
-         "category": "resources",
-         "stacks": 40
-      },
-      "stonehearth:material": {
-         "tags": "natallium ore resource"
-      },
       "model_variants": {
          "default": {
             "models": [
                "file(natallium.qb)"
             ]
          }
-      },
-      "unit_info": {
-         "display_name": "i18n(bastioneers:entities.resources.natallium.display_name)",
-         "description": "i18n(bastioneers:entities.resources.natallium.description)",
-         "icon": "file(natallium.png)"
       }
    },
    "entity_data": {
@@ -38,6 +26,14 @@
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"
          }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(bastioneers:entities.resources.natallium.display_name)",
+         "description": "i18n(bastioneers:entities.resources.natallium.description)",
+         "icon": "file(natallium.png)",
+         "is_item": true,
+         "category": "resources",
+         "material_tags": "natallium ore resource"
       }
    }
 }

@@ -2,16 +2,15 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "unit_info": {
-         "display_name": "i18n(bastioneers:entities.weapons.stone_sword.stone_sword_iconic.display_name)",
-         "description": "i18n(bastioneers:entities.weapons.stone_sword.stone_sword_iconic.description)",
-         "icon": "file(stone_sword.png)"
-      },
-      "item": {
-         "category": "weapons"
-      },
-      "stonehearth:material": {
-         "tags": "stone melee_weapon"
+      "entity_data": {
+         "stonehearth:catalog": {
+            "display_name": "i18n(bastioneers:entities.weapons.stone_sword.stone_sword_iconic.display_name)",
+            "description": "i18n(bastioneers:entities.weapons.stone_sword.stone_sword_iconic.description)",
+            "icon": "file(stone_sword.png)",
+            "category": "weapons",
+            "is_item": true,
+            "material_tags": "stone melee_weapon"
+         },
       },
       "model_variants": {
          "default": {

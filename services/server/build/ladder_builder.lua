@@ -1,4 +1,4 @@
-local priorities = require('constants').priorities.simple_labor
+local priorities = require('stonehearth.constants').priorities.simple_labor
 
 local Point2 = _radiant.csg.Point2
 local Point3 = _radiant.csg.Point3
@@ -226,7 +226,7 @@ function LadderBuilder:get_ladder()
 end
 
 function LadderBuilder:get_material()
-   return 'wood resource'
+   return 'raw_wood resource'
 end
 
 function LadderBuilder:vpr_is_empty()

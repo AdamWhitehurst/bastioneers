@@ -2,24 +2,12 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "item": {
-         "category": "wealth",
-         "stacks": 2
-      },
-      "stonehearth:material": {
-         "tags": "perplee_gem gem wealth"
-      },
       "model_variants": {
          "default": {
             "models": [
                "file(perplee_gem.qb)"
             ]
          }
-      },
-      "unit_info": {
-         "display_name": "i18n(bastioneers:entities.wealth.perplee_gem.display_name)",
-         "description": "i18n(bastioneers:entities.wealth.perplee_gem.description)",
-         "icon": "file(perplee_gem.png)"
       }
    },
    "entity_data": {
@@ -32,6 +20,14 @@
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"
          }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(bastioneers:entities.wealth.perplee_gem.display_name)",
+         "description": "i18n(bastioneers:entities.wealth.perplee_gem.description)",
+         "icon": "file(perplee_gem.png)",
+         "is_item": true,
+         "category": "wealth",
+         "material_tags": "perplee_gem gem wealth"
       }
    }
 }

@@ -2,25 +2,8 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "unit_info": {
-         "display_name": "i18n(bastioneers:entities.armor.makeshift_stone_armor.display_name)",
-         "description": "i18n(bastioneers:entities.armor.makeshift_stone_armor.description)",
-         "icon": "file(makeshift_stone_armor.png)"
-      },
-      "item": {
-         "category": "armor"
-      },
-      "stonehearth:material": {
-         "tags": "armor heavy_armor"
-      },
       "model_variants": {
-         "default": {
-            "layer": "armor",
-            "models": [
-               "file(makeshift_stone_armor.qb)"
-            ]
-         },
-         "female": {
+         "bastioneer": {
             "layer": "armor",
             "models": [
                "file(makeshift_stone_armor.qb)"
@@ -34,14 +17,14 @@
          "render_type": "merge_with_model",
          "slot": "torso",
          "ilevel": 1,
-         "roles": "everyone combat",
+         "roles": "everyone",
          "injected_buffs": [
             "bastioneers:buffs:courage"
          ],
          "equip_effect": "/stonehearth/data/effects/level_up"
       },
       "bastioneers:durability": {
-         "total_durability": 120
+         "total_durability": 130
       }
    },
    "entity_data": {
@@ -57,6 +40,14 @@
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"
          }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(bastioneers:entities.armor.makeshift_stone_armor.display_name)",
+         "description": "i18n(bastioneers:entities.armor.makeshift_stone_armor.description)",
+         "icon": "file(makeshift_stone_armor.png)",
+         "category": "armor",
+         "is_item": true,
+         "material_tags": "armor heavy_armor"
       }
    }
 }

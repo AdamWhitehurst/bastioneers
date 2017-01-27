@@ -43,10 +43,6 @@
             }
          ]
       },
-      "unit_info": {
-         "display_name": "i18n(bastioneers:entities.fungi.golden_mushroom_colony.display_name)",
-         "description": "i18n(bastioneers:entities.fungi.golden_mushroom_colony.description)"
-      },
       "stonehearth:renewable_resource_node": {
          "task_group_name": "stonehearth:task_group:harvest",
          "resource": "bastioneers:food:fungi:golden_mushroom_basket",
@@ -65,6 +61,11 @@
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"
          }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(bastioneers:entities.fungi.golden_mushroom_colony.display_name)",
+         "description": "i18n(bastioneers:entities.fungi.golden_mushroom_colony.description)",
+         "category": "plants"
       }
    }
 }

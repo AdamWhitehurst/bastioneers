@@ -2,25 +2,8 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "unit_info": {
-         "display_name": "i18n(bastioneers:entities.armor.fine_stone_armor.display_name)",
-         "description": "i18n(bastioneers:entities.armor.fine_stone_armor.description)",
-         "icon": "file(fine_stone_armor.png)"
-      },
-      "item": {
-         "category": "armor"
-      },
-      "stonehearth:material": {
-         "tags": "armor heavy_armor combat"
-      },
       "model_variants": {
-         "default": {
-            "layer": "armor",
-            "models": [
-               "file(fine_stone_armor.qb)"
-            ]
-         },
-         "female": {
+         "bastioneer": {
             "layer": "armor",
             "models": [
                "file(fine_stone_armor.qb)"
@@ -33,7 +16,7 @@
       "stonehearth:equipment_piece": {
          "render_type": "merge_with_model",
          "slot": "torso",
-         "ilevel": 2,
+         "ilevel": 3,
          "roles": "everyone combat",
          "injected_buffs": [
             "bastioneers:buffs:courage"
@@ -57,6 +40,14 @@
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"
          }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(bastioneers:entities.armor.fine_stone_armor.display_name)",
+         "description": "i18n(bastioneers:entities.armor.fine_stone_armor.description)",
+         "icon": "file(fine_stone_armor.png)",
+         "category": "armor",
+         "is_item": true,
+         "material_tags": "armor heavy_armor combat"
       }
    }
 }

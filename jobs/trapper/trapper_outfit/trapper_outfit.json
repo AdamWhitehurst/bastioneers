@@ -2,10 +2,6 @@
    "type": "entity",
    "mixins": "stonehearth:mixins:item_properties",
    "components": {
-      "unit_info": {
-         "display_name": "i18n(stonehearth:jobs.trapper.trapper_outfit.display_name)",
-         "icon": "file(trapper_outfit.png)"
-      },
       "render_info": {},
       "model_variants": {
          "default": {
@@ -27,6 +23,12 @@
       "stonehearth:equipment_piece": {
          "slot": "torso",
          "render_type": "merge_with_model"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:jobs.trapper.trapper_outfit.display_name)",
+         "icon": "file(trapper_outfit.png)"
       }
    }
 }

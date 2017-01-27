@@ -1,9 +1,9 @@
 {
    "type": "entity",
-   "components": {
-      "stonehearth:material": {
-"tags_modified": true,
-         "tags": "stockpile_feathers feathers resource raw_material"
+   "entity_data": {
+      "stonehearth:catalog": {
+
+         "custom_tags": "stockpile_feathers feathers resource raw_material"
       }
    }
 }

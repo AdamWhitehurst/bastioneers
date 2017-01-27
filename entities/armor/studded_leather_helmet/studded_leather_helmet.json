@@ -1,14 +1,7 @@
 {
    "components": {
       "model_variants": {
-         "default": {
-            "layer": "hat",
-            "transparent": "true",
-            "models": [
-               "file(studded_leather_helmet.qb)"
-            ]
-         },
-         "female": {
+         "bastioneer": {
             "layer": "hat",
             "transparent": "true",
             "models": [

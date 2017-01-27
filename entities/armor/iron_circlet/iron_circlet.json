@@ -4,15 +4,7 @@
          "total_durability": 400
       },
       "model_variants": {
-         "default": {
-            "layer": "hat",
-            "transparent": "true",
-            "mixintype_models": "override",
-            "models": [
-               "file(iron_circlet.qb)"
-            ]
-         },
-         "female": {
+         "bastioneer": {
             "layer": "hat",
             "transparent": "true",
             "mixintype_models": "override",

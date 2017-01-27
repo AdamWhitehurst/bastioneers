@@ -63,6 +63,7 @@
          "patterns": {
             "bastioneers:build:brushes:roof:crenellated_adobe": {
                "icon": "/bastioneers/data/build/brushes/roof/crenellated_adobe/crenellated_adobe.png",
+               "display_name": "i18n(bastioneers:data.build.building_brushes.patterns.crenellated_adobe)",
                "type": "flat"
             }
          }
@@ -71,6 +72,7 @@
          "patterns": {
             "bastioneers:build:brushes:roof:crenellated_stone": {
                "icon": "/bastioneers/data/build/brushes/roof/crenellated_stone/crenellated_stone.png",
+               "display_name": "i18n(bastioneers:data.build.building_brushes.patterns.crenellated_stone)",
                "type": "flat"
             }
          }

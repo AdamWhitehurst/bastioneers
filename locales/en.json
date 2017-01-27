@@ -283,7 +283,26 @@
          "refineer_description": {
             "display_name": "Refineer",
             "description": "Bastioneers with an innate knowledge of resources are often designated as Refineers to increase output of crafters who rely on refined resources. Master Refineers are highly regarded; you cannot craft fine goods with poor ingredients.",
-            "requirements": "A Refineer's Mallet and Rasp, crafted by the Blacksmith."
+            "requirements": "A Refineer's Mallet and Rasp, crafted by the Blacksmith.",
+            "level_1_data": {
+               "perk_000_description": "The refineer can now make a large variety of refinements"
+            },
+            "level_2_data": {
+               "perk_000_description": "The refineer can now refine ores into ingots for the blacksmith",
+               "perk_000_name": "Coal-ordinated Crafting"
+            },
+            "level_3_data": {
+               "perk_000_description": "The refineer's skill sometimes exceeds even their own expectations."
+            },
+            "level_4_data": {
+               "perk_000_description": "Hard work and sneaking some stone as meals have allowed the refineer to grow stronger and speedier.",
+               "perk_000_name": "Spring Steel"
+            },
+            "level_6_data": {
+               "title": "Master Refineer",
+               "perk_000_name": "The Ultimate Refinement",
+               "perk_000_description": "The reinfeer has refined their own body to carry double that of a normal 'Neer"
+            }
          },
          "refineer_lathe": {
             "refineer_lathe_ghost": {
@@ -354,6 +373,10 @@
                "#515865": "Lana Del Grey",
                "#72798A": "Not-quite Grey",
                "#5E6875": "Stoney"
+            },
+            "patterns": {
+               "crenellated_stone": "Crenellated Stone",
+               "crenellated_adobe": "Crenellated Adobe"
             }
          }
       },

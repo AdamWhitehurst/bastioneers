@@ -2,30 +2,16 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "unit_info": {
-         "display_name": "i18n(bastioneers:entities.armor.ornate_armor.display_name)",
-         "description": "i18n(bastioneers:entities.armor.ornate_armor.description)",
-         "icon": "file(ornate_armor.png)"
-      },
-      "item": {
-         "category": "armor"
-      },
-      "stonehearth:material": {
-         "tags": "armor heavy_armor"
-      },
       "model_variants": {
-         "default": {
-            "layer": "armor",
-            "models": [
-               "file(ornate_armor.qb)"
-            ]
-         },
-         "female": {
+         "bastioneer": {
             "layer": "armor",
             "models": [
                "file(ornate_armor.qb)"
             ]
          }
+      },
+      "bastioneers:durability": {
+         "total_durability": 200
       },
       "stonehearth:entity_forms": {
          "iconic_form": "file(ornate_armor_iconic.json)"
@@ -53,8 +39,12 @@
             "shopkeeper_type": "caravan"
          }
       },
-      "bastioneers:durability": {
-         "total_durability": 200
+      "stonehearth:catalog": {
+         "display_name": "i18n(bastioneers:entities.armor.ornate_armor.display_name)",
+         "description": "i18n(bastioneers:entities.armor.ornate_armor.description)",
+         "icon": "file(ornate_armor.png)",
+         "category": "armor",
+         "material_tags": "armor heavy_armor"
       }
    }
 }

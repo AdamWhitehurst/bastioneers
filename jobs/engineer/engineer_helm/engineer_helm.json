@@ -2,11 +2,6 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "unit_info": {
-         "display_name": "i18n(stonehearth:jobs.engineer.engineer_helm.display_name)",
-         "description": "i18n(stonehearth:jobs.engineer.engineer_helm.description)",
-         "icon": "file(engineer_helm.png)"
-      },
       "stonehearth:material": {
          "tags": "goggles"
       },
@@ -31,6 +26,13 @@
          "slot": "helmet",
          "roles": "engineer_job",
          "no_drop": true
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:jobs.engineer.engineer_helm.display_name)",
+         "description": "i18n(stonehearth:jobs.engineer.engineer_helm.description)",
+         "icon": "file(engineer_helm.png)"
       }
    }
 }

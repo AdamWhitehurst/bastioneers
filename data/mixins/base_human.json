@@ -1,5 +1,28 @@
 {
    "entity_data" : {
+	   	"stonehearth:idle_effects": {
+	   	    "mixintypes": {
+	   	      "effects": "override"
+	   	    },
+	   	   "effects": [
+	   	      {
+	   	         "name": "idle_breathe",
+	   	         "weight": 5
+	   	      },
+	   	      {
+	   	         "name": "idle_look_around",
+	   	         "weight": 2
+	   	      },
+	   	      {
+	   	         "name": "idle_sway",
+	   	         "weight": 2
+	   	      },
+	   	      {
+	   	         "name": "yawn",
+	   	         "weight": 0.25
+	   	      }
+	   	   ]
+	   	},
       "stonehearth:ai_packs" : {
          "packs" : [
             "bastioneers:ai_pack:bastioneers"

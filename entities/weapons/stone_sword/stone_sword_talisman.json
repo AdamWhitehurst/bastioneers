@@ -9,17 +9,6 @@
             ]
          }
       },
-      "unit_info": {
-         "display_name": "i18n(bastioneers:entities.weapons.stone_sword.stone_sword_talisman.display_name)",
-         "description": "i18n(bastioneers:entities.weapons.stone_sword.stone_sword_talisman.description)",
-         "icon": "file(stone_sword.png)"
-      },
-      "item": {
-         "category": "tools"
-      },
-      "stonehearth:material": {
-         "tags": "stone melee_weapon crafted tool"
-      },
       "effect_list": {
          "default": "stonehearth:effects:talisman_glow"
       },
@@ -28,6 +17,14 @@
       }
    },
    "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(bastioneers:entities.weapons.stone_sword.stone_sword_talisman.display_name)",
+         "description": "i18n(bastioneers:entities.weapons.stone_sword.stone_sword_talisman.description)",
+         "icon": "file(stone_sword.png)",
+         "is_item": true,
+         "category": "tools",
+         "material_tags": "stone melee_weapon crafted tool"
+      },
       "stonehearth:net_worth": {
          "value_in_gold": 30,
          "rarity": "rare",

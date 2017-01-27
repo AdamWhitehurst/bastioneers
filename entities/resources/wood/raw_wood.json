@@ -1,9 +1,8 @@
 {
    "type": "entity",
-   "components": {
-      "stonehearth:material": {
-"tags_modified": true,
-         "tags": "stockpile_wood raw_wood resource raw_material"
-      }
-   }
+   "entity_data": {
+		"stonehearth:catalog": {
+	        "material_tags": "stockpile_wood raw_wood resource raw_material"
+	    }
+	}
 }

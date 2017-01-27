@@ -2,11 +2,8 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "mob" : {
-         "model_origin" : { "x": 0.05, "y": 0, "z": 0.05 }
-      },
-      "item" : {
-         "category" : "decoration"
+      "mob": {
+         "model_origin": { "x": 0.05, "y": 0, "z": 0.05 }
       },
       "model_variants": {
          "default": {
@@ -14,6 +11,12 @@
                "file(light_of_valor_obelisk_iconic.qb)"
             ]
          }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "is_item": true,
+         "category": "decoration"
       }
    }
 }

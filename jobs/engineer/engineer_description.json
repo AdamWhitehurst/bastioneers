@@ -1,6 +1,7 @@
 {
 	"type" : "job",
    	"mixins": "stonehearth:jobs:engineer",
+   	"roles": "engineer_job crafter everyone",
    	"equipment": {
    		"torso": "file(engineer_outfit)",
    		"mainhand": "stonehearth:engineer:wrench",

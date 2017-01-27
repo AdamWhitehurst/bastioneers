@@ -5,6 +5,7 @@
    "description": "i18n(bastioneers:jobs.footman.footman_description.description)",
    "parent_job": "stonehearth:jobs:trapper",
    "parent_level_requirement": 3,
+   "roles": "footman_job cloth_wearer leather_wearer mail_wearer melee_combat combat everyone",
    "equipment": {
       "torso": "file(footman_outfit)",
       "mainhand": "stonehearth:weapons:wooden_sword"

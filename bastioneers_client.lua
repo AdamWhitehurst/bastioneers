@@ -12,8 +12,8 @@ local function check_override_ui(players, player_id)
    if client_player then
       if client_player.kingdom == "bastioneers:kingdoms:bastioneers" then
          -- hot load bastioneers-only gameplay elements mod
-         _radiant.res.load_mod("bastioneers")
-         _radiant.res.load_mod("bastioneers_playing")
+         _radiant.res.apply_manifest("bastioneers/playing_manifest.json")
+         
       end
    end
 end

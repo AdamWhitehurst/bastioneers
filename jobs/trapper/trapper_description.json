@@ -7,14 +7,13 @@
    "parent_level_requirement": 0,
    "abilities": "file(trapper_abilities)",
    "controller": "file(trapper.lua)",
-   "roles": "trapper_job hunter cloth_wearer leather_wearer melee_combat combat",
+   "roles": "trapper_job hunter cloth_wearer leather_wearer melee_combat combat everyone",
    "task_groups": [
       "stonehearth:task_group:common_tasks",
       "stonehearth:task_group:trapping",
       "stonehearth:task_group:restock",
       "stonehearth:task_group:harvest",
-      "stonehearth:task_group:placement",
-      "stonehearth:task_group:patrolling"
+      "stonehearth:task_group:placement"
    ],
    "equipment": {
    		"torso" : "file(trapper_outfit)"

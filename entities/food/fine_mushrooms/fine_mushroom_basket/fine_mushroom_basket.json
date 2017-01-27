@@ -2,11 +2,6 @@
    "mixins": "stonehearth:mixins:food_decay",
    "type": "entity",
    "components": {
-      "item": {
-         "category": "food",
-         "stacks": 3,
-         "maxStacks": 3
-      },
       "model_variants": {
          "default": {
             "models": [
@@ -23,14 +18,6 @@
                "file(fine_mushroom_basket_rotten.qb)"
             ]
          }
-      },
-      "unit_info": {
-         "display_name": "i18n(bastioneers:entities.food.fungi.fine_mushroom_basket.display_name)",
-         "description": "i18n(bastioneers:entities.food.fungi.fine_mushroom_basket.description)",
-         "icon": "file(fine_mushroom_basket.png)"
-      },
-      "stonehearth:material": {
-         "tags": "food_container raw_food fungi mushroom fine_mushroom "
       },
       "mob": {
          "model_origin": { "x": 0, "y": 0, "z": 0.05 }
@@ -50,6 +37,14 @@
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"
          }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(bastioneers:entities.food.fungi.fine_mushroom_basket.display_name)",
+         "description": "i18n(bastioneers:entities.food.fungi.fine_mushroom_basket.description)",
+         "icon": "file(fine_mushroom_basket.png)",
+         "is_item": true,
+         "category": "food",
+         "material_tags": "food_container raw_food fungi mushroom fine_mushroom "
       }
    }
 }

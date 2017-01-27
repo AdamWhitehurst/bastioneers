@@ -2,17 +2,6 @@
    "type": "entity",
    "mixins": "stonehearth:mixins:item_properties",
    "components": {
-      "unit_info": {
-         "display_name": "i18n(bastioneers:jobs.refineer.refineer_rasp.display_name)",
-         "description": "i18n(bastioneers:jobs.refineer.refineer_rasp.description)",
-         "icon": "file(refineer_rasp.png)"
-      },
-      "item": {
-         "category": "tools"
-      },
-      "stonehearth:material": {
-         "tags": "stockpile_tool"
-      },
       "model_variants": {
          "default": {
             "models": [
@@ -51,6 +40,14 @@
             "buyable": false,
             "sellable": false
          }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(bastioneers:jobs.refineer.refineer_rasp.display_name)",
+         "description": "i18n(bastioneers:jobs.refineer.refineer_rasp.description)",
+         "icon": "file(refineer_rasp.png)",
+         "category": "tools",
+         "is_item": true,
+         "tags": "stockpile_tool"
       }
    }
 }

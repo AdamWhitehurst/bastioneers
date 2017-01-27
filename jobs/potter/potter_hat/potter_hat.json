@@ -2,14 +2,6 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "unit_info": {
-         "display_name": "i18n(bastioneers:jobs.potter.potter_hat.display_name)",
-         "description": "i18n(bastioneers:jobs.potter.potter_hat.description)",
-         "icon": "file(potter_hat.png)"
-      },
-      "item": {
-         "category": "armor"
-      },
       "stonehearth:material": {
          "tags": "clay armor "
       },
@@ -40,6 +32,13 @@
    "entity_data": {
       "stonehearth:combat:armor_data": {
          "base_damage_reduction": 1
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(bastioneers:jobs.potter.potter_hat.display_name)",
+         "description": "i18n(bastioneers:jobs.potter.potter_hat.description)",
+         "icon": "file(potter_hat.png)",
+         "is_item": true,
+         "category": "armor"
       }
    }
 }

@@ -5,6 +5,7 @@
    "description": "i18n(bastioneers:jobs.mason.mason_description.description)",
    "parent_job": "bastioneers:jobs:refineer",
    "parent_level_requirement": 2,
+   "roles": "mason_job crafter everyone",
    "crafter": {
       "recipe_list": "/bastioneers/jobs/mason/recipes/recipes.json"
    },

@@ -2,26 +2,8 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "unit_info": {
-         "display_name": "i18n(bastioneers:entities.armor.mining_helmet.display_name)",
-         "description": "i18n(bastioneers:entities.armor.mining_helmet.description)",
-         "icon": "file(mining_helmet.png)"
-      },
-      "item": {
-         "category": "armor"
-      },
-      "stonehearth:material": {
-         "tags": "armor"
-      },
       "model_variants": {
-         "default": {
-            "layer": "hat",
-            "transparent": "false",
-            "models": [
-               "file(mining_helmet.qb)"
-            ]
-         },
-         "female": {
+         "bastioneer": {
             "layer": "hat",
             "transparent": "false",
             "models": [
@@ -56,6 +38,14 @@
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"
          }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(bastioneers:entities.armor.mining_helmet.display_name)",
+         "description": "i18n(bastioneers:entities.armor.mining_helmet.description)",
+         "icon": "file(mining_helmet.png)",
+         "category": "armor",
+         "is_item": true,
+         "material_tags": "armor"
       }
    }
 }

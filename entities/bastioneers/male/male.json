@@ -6,6 +6,7 @@
         "animation_table" : "bastioneers:skeletons:humanoid:male",
         "color_map": "bastioneers:color_map:male",
         "cache_model_geometry": false,
+        "model_variant": "bastioneer",
         "material_maps": [
           {
             "type": "one_of",
@@ -53,6 +54,29 @@
       }
    },
    "entity_data" : {
+      "stonehearth:idle_effects": {
+          "mixintypes": {
+            "effects": "override"
+          },
+         "effects": [
+            {
+               "name": "idle_breathe",
+               "weight": 5
+            },
+            {
+               "name": "idle_look_around",
+               "weight": 2
+            },
+            {
+               "name": "idle_sway",
+               "weight": 2
+            },
+            {
+               "name": "yawn",
+               "weight": 0.25
+            }
+         ]
+      },
       "stonehearth:customization_variants" : {
          "root" : {
             "variants" : [

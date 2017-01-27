@@ -3,6 +3,7 @@
    "mixins" : "stonehearth:jobs:archer",
    "parent_job": "stonehearth:jobs:footman",
    "parent_level_requirement" : 3,
+   "roles": "archer_job leather_wearer cloth_wearer ranged_combat combat everyone",
    "equipment": {
    		"helmet": "file(archer_hood)",
     	"torso": "file(archer_outfit)"

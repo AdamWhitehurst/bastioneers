@@ -1,24 +1,14 @@
+
 {
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "item": {
-         "category": "refined"
-      },
       "model_variants": {
          "default": {
             "models": [
                "file(wood_planks.qb)"
             ]
          }
-      },
-      "unit_info": {
-         "display_name": "i18n(bastioneers:entities.refined.wood_planks.display_name)",
-         "description": "i18n(bastioneers:entities.refined.wood_planks.description)",
-         "icon": "file(wood_planks.png)"
-      },
-      "stonehearth:material": {
-         "tags": "wood planks refined resource stockpile_refined_refineer"
       }
    },
    "entity_data": {
@@ -31,6 +21,14 @@
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"
          }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(bastioneers:entities.refined.wood_planks.display_name)",
+         "description": "i18n(bastioneers:entities.refined.wood_planks.description)",
+         "icon": "file(wood_planks.png)",
+         "is_item": true,
+         "category": "resources",
+         "material_tags": "wood planks refined resource stockpile_refined_refineer"
       }
    }
 }

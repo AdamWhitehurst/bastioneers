@@ -2,16 +2,15 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "unit_info": {
-         "display_name": "i18n(bastioneers:entities.armor.crate_helmet.crate_helmet_iconic.display_name)",
-         "description": "i18n(bastioneers:entities.armor.crate_helmet.crate_helmet_iconic.description)",
-         "icon": "file(crate_helmet.png)"
-      },
-      "item": {
-         "category": "armor"
-      },
-      "stonehearth:material": {
-         "tags": "armor heavy_armor"
+      "entity_data": {
+         "stonehearth:catalog": {
+            "display_name": "i18n(bastioneers:entities.armor.crate_helmet.crate_helmet_iconic.display_name)",
+            "description": "i18n(bastioneers:entities.armor.crate_helmet.crate_helmet_iconic.description)",
+            "icon": "file(crate_helmet.png)",
+            "category": "armor",
+            "is_item": true,
+            "material_tags": "armor heavy_armor"
+         }
       },
       "model_variants": {
          "default": {

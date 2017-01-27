@@ -2,25 +2,8 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "unit_info": {
-         "description": "i18n(bastioneers:entities.armor.reinforced_armor.description)",
-         "icon": "file(reinforced_armor.png)",
-         "display_name": "i18n(stonehearth.entities.armor.reinforced_armor.display_name)"
-      },
-      "item": {
-         "category": "armor"
-      },
-      "stonehearth:material": {
-         "tags": "armor heavy_armor"
-      },
       "model_variants": {
-         "default": {
-            "layer": "armor",
-            "models": [
-               "file(reinforced_armor.qb)"
-            ]
-         },
-         "female": {
+         "bastioneer": {
             "layer": "armor",
             "models": [
                "file(reinforced_armor.qb)"
@@ -38,7 +21,18 @@
          "equip_effect": "/stonehearth/data/effects/level_up"
       }
    },
+   "bastioneers:durability": {
+      "total_durability": 200
+   },
    "entity_data": {
+      "stonehearth:catalog": {
+         "description": "i18n(bastioneers:entities.armor.reinforced_armor.description)",
+         "icon": "file(reinforced_armor.png)",
+         "display_name": "i18n(stonehearth.entities.armor.reinforced_armor.display_name)",
+         "is_item": true,
+         "category": "armor",
+         "material_tags": "armor heavy_armor"
+      },
       "stonehearth:combat:armor_data": {
          "base_damage_reduction": 10
       },
@@ -51,9 +45,6 @@
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"
          }
-      },
-      "bastioneers:durability": {
-         "total_durability": 200
       }
    }
 }

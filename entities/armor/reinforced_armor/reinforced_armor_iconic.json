@@ -2,16 +2,15 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "unit_info": {
-         "description": "i18n(bastioneers:entities.armor.reinforced_armor.reinforced_armor_iconic.description)",
-         "icon": "file(reinforced_armor.png)",
-         "display_name": "i18n(bastioneers:entities.armor.reinforced_armor.reinforced_armor_iconic.display_name)"
-      },
-      "item": {
-         "category": "armor"
-      },
-      "stonehearth:material": {
-         "tags": "armor heavy_armor"
+      "entity_data": {
+         "stonehearth:catalog": {
+            "description": "i18n(bastioneers:entities.armor.reinforced_armor.reinforced_armor_iconic.description)",
+            "icon": "file(reinforced_armor.png)",
+            "display_name": "i18n(bastioneers:entities.armor.reinforced_armor.reinforced_armor_iconic.display_name)",
+            "is_item": true,
+            "category": "armor",
+            "material_tags": "armor heavy_armor"
+         }
       },
       "model_variants": {
          "default": {

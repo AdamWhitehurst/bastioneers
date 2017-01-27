@@ -7,18 +7,9 @@
          "total_durability": 450
       },
       "model_variants": {
-         "default": {
+         "bastioneer": {
             "layer": "armor",
             "transparent": "true",
-            "mixintype_models": "override",
-            "models": [
-               "file(iron_mail.qb)"
-            ]
-         },
-         "female": {
-            "layer": "armor",
-            "transparent": "true",
-            "mixintype_models": "override",
             "models": [
                "file(iron_mail.qb)"
             ]

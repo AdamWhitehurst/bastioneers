@@ -3,6 +3,7 @@
    "mixins" : "stonehearth:jobs:knight",
    "parent_job": "stonehearth:jobs:footman",
    "parent_level_requirement" : 3,
+   "roles": "knight_job plate_wearer melee_combat combat everyone",
    "equipment": {
    		"helmet": "file(knight_helm)",
    		"torso" : "file(knight_outfit)"

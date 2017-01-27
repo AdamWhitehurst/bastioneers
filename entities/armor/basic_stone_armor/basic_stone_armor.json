@@ -2,25 +2,8 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "unit_info": {
-         "display_name": "i18n(bastioneers:entities.armor.basic_stone_armor.display_name)",
-         "description": "i18n(bastioneers:entities.armor.basic_stone_armor.description)",
-         "icon": "file(basic_stone_armor.png)"
-      },
-      "item": {
-         "category": "armor"
-      },
-      "stonehearth:material": {
-         "tags": "armor heavy_armor combat"
-      },
       "model_variants": {
-         "default": {
-            "layer": "armor",
-            "models": [
-               "file(basic_stone_armor.qb)"
-            ]
-         },
-         "female": {
+         "bastioneer": {
             "layer": "armor",
             "models": [
                "file(basic_stone_armor.qb)"
@@ -45,6 +28,14 @@
       }
    },
    "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(bastioneers:entities.armor.basic_stone_armor.display_name)",
+         "description": "i18n(bastioneers:entities.armor.basic_stone_armor.description)",
+         "icon": "file(basic_stone_armor.png)",
+         "is_item": true,
+         "category": "armor",
+         "material_tags": "armor heavy_armor combat"
+      },
       "stonehearth:combat:armor_data": {
          "base_damage_reduction": 5
       },

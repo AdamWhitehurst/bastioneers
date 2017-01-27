@@ -2,11 +2,6 @@
    "type": "entity",
    "mixins": "stonehearth:mixins:item_properties",
    "components": {
-      "unit_info": {
-         "display_name": "i18n(stonehearth:jobs.archer.archer_outfit.archer_hood.display_name)",
-         "description": "i18n(stonehearth:jobs.archer.archer_outfit.archer_hood.description)",
-         "icon": "file(archer_hood.png)"
-      },
       "render_info": {},
       "model_variants": {
          "default": {
@@ -34,6 +29,11 @@
    "entity_data": {
       "stonehearth:combat:armor_data": {
          "base_damage_reduction": 2
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:jobs.archer.archer_outfit.archer_hood.display_name)",
+         "description": "i18n(stonehearth:jobs.archer.archer_outfit.archer_hood.description)",
+         "icon": "file(archer_hood.png)"
       }
    }
 }

@@ -2,26 +2,30 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "unit_info": {
-         "display_name": "i18n(bastioneers:entities.armor.crate_helmet.display_name)",
-         "description": "i18n(bastioneers:entities.armor.crate_helmet.description)",
-         "icon": "file(crate_helmet.png)"
-      },
-      "item": {
-         "category": "armor"
-      },
-      "stonehearth:material": {
-         "tags": "armor"
+      "entity_data": {
+         "stonehearth:catalog": {
+            "display_name": "i18n(bastioneers:entities.armor.crate_helmet.display_name)",
+            "description": "i18n(bastioneers:entities.armor.crate_helmet.description)",
+            "icon": "file(crate_helmet.png)",
+            "category": "armor",
+            "material_tags": "armor"
+         },
+         "stonehearth:combat:armor_data": {
+            "base_damage_reduction": 2
+         },
+         "stonehearth:net_worth": {
+            "value_in_gold": 85,
+            "rarity": "common",
+            "shop_info": {
+               "buyable": true,
+               "sellable": true,
+               "shopkeeper_level": 1,
+               "shopkeeper_type": "caravan"
+            }
+         }
       },
       "model_variants": {
-         "default": {
-            "layer": "hat",
-            "transparent": "false",
-            "models": [
-               "file(crate_helmet.qb)"
-            ]
-         },
-         "female": {
+         "bastioneer": {
             "layer": "hat",
             "transparent": "false",
             "models": [
@@ -41,21 +45,6 @@
       },
       "bastioneers:durability": {
          "total_durability": 350
-      }
-   },
-   "entity_data": {
-      "stonehearth:combat:armor_data": {
-         "base_damage_reduction": 2
-      },
-      "stonehearth:net_worth": {
-         "value_in_gold": 85,
-         "rarity": "common",
-         "shop_info": {
-            "buyable": true,
-            "sellable": true,
-            "shopkeeper_level": 1,
-            "shopkeeper_type": "caravan"
-         }
       }
    }
 }

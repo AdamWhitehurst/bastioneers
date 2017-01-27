@@ -7,18 +7,9 @@
          "total_durability": 400
       },
       "model_variants": {
-         "default": {
+         "bastioneer": {
             "layer": "hat",
             "transparent": "true",
-            "mixintype_models": "override",
-            "models": [
-               "file(steel_mail.qb)"
-            ]
-         },
-         "female": {
-            "layer": "hat",
-            "transparent": "true",
-            "mixintype_models": "override",
             "models": [
                "file(steel_mail.qb)"
             ]

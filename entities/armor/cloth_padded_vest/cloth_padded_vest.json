@@ -1,24 +1,17 @@
 {
    "components": {
-      "unit_info": {
-         "icon": "file(cloth_padded_vest.png)"
+      "entity_data": {
+         "stonehearth:catalog": {
+            "icon": "file(cloth_padded_vest.png)"
+         }
       },
          "bastioneers:durability": {
          "total_durability": 250
       },
       "model_variants": {
-         "default": {
+         "bastioneer": {
             "layer": "hat",
             "transparent": "true",
-            "mixintype_models": "override",
-            "models": [
-               "file(cloth_padded_vest.qb)"
-            ]
-         },
-         "female": {
-            "layer": "hat",
-            "transparent": "true",
-            "mixintype_models": "override",
             "models": [
                "file(cloth_padded_vest.qb)"
             ]

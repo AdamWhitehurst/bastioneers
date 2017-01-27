@@ -2,46 +2,43 @@
    "type": "index",
    "resources": {
       "wood resource": {
-         "name": "i18n(bastioneers:ui.data.constants.wood_resource_name)",
-         "icon": "/bastioneers/entities/refined/wood_planks/wood_planks.png",
-         "stacks": 60,
-         "default_resource": "bastioneers:refined:wood_planks"
+         "b_name": "i18n(bastioneers:ui.data.constants.wood_resource_name)",
+         "b_icon": "/bastioneers/entities/refined/wood_planks/wood_planks.png",
+         "b_default_resource": "bastioneers:refined:wood_planks"
       },
       "stone resource": {
-         "name": "i18n(bastioneers:ui.data.constants.stone_bricks_resource_name)",
-         "icon": "/stonehearth/entities/refined/stone_bricks/stone_bricks.png",
-         "stacks": 60,
-         "default_resource": "stonehearth:refined:stone_bricks"
+         "b_name": "i18n(bastioneers:ui.data.constants.stone_bricks_resource_name)",
+         "b_icon": "/stonehearth/entities/refined/stone_bricks/stone_bricks.png",
+         "b_default_resource": "stonehearth:refined:stone_bricks"
       },
       "clay resource": {
-         "name": "i18n(stonehearth:ui.data.constants.clay_brick_resource_name)",
-         "icon": "/stonehearth/entities/construction/clay_bricks/clay_bricks.png",
-         "stacks": 60,
-         "default_resource": "stonehearth:construction:clay_bricks"
+         "b_name": "i18n(stonehearth:ui.data.constants.clay_brick_resource_name)",
+         "b_icon": "/stonehearth/entities/construction/clay_bricks/clay_bricks.png",
+         "b_default_resource": "stonehearth:construction:clay_bricks"
       },
       "clay_brick resource": {
-         "name": "i18n(stonehearth:ui.data.constants.clay_brick_resource_name)",
-         "icon": "/stonehearth/entities/construction/clay_bricks/clay_bricks.png",
+         "b_name": "i18n(stonehearth:ui.data.constants.clay_brick_resource_name)",
+         "b_icon": "/stonehearth/entities/construction/clay_bricks/clay_bricks.png",
          "stacks": 60,
-         "default_resource": "stonehearth:construction:clay_bricks"
+         "b_default_resource": "stonehearth:construction:clay_bricks"
       },
       "raw_clay resource": {
-         "name": "i18n(stonehearth:ui.data.constants.clay_resource_name)",
-         "icon": "/stonehearth/entities/resources/clay/clay.png",
+         "b_name": "i18n(stonehearth:ui.data.constants.clay_resource_name)",
+         "b_icon": "/stonehearth/entities/resources/clay/clay.png",
          "stacks": 60,
-         "default_resource": "stonehearth:resources:clay:clay_mound"
+         "b_default_resource": "stonehearth:resources:clay:clay_mound"
       },
       "raw_stone resource": {
-         "name": "i18n(stonehearth:ui.data.constants.stone_resource_name)",
-         "icon": "/stonehearth/entities/resources/stone/stone.png",
+         "b_name": "i18n(stonehearth:ui.data.constants.stone_resource_name)",
+         "b_icon": "/stonehearth/entities/resources/stone/stone.png",
          "stacks": 60,
-         "default_resource": "stonehearth:resources:stone:hunk_of_stone"
+         "b_default_resource": "stonehearth:resources:stone:hunk_of_stone"
       },
       "raw_wood resource": {
-         "name": "i18n(stonehearth:ui.data.constants.wood_resource_name)",
-         "icon": "/stonehearth/entities/resources/wood/log.png",
+         "b_name": "i18n(stonehearth:ui.data.constants.wood_resource_name)",
+         "b_icon": "/stonehearth/entities/resources/wood/log.png",
          "stacks": 60,
-         "default_resource": "stonehearth:resources:wood:oak_log"
+         "b_default_resource": "stonehearth:resources:wood:oak_log"
       }
    }
 }

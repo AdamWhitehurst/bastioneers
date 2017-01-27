@@ -10,6 +10,7 @@ function MaterialComponent:initialize()
    self._sv.tags = {}
    self._sv.tags_string = ''
    self._sv.tags_modified = false
+   self._sv.custom_tags = {}
 end
 
 function MaterialComponent:create()
@@ -23,14 +24,20 @@ function MaterialComponent:restore()
       self:_read_tags_from_json()
    end
 end
-
 function MaterialComponent:_read_tags_from_json()
    local json = radiant.entities.get_json(self)
    local tags = json and json.tags or ''
-   self:set_tag_string(tags)
-   if json and json.tags_modified and json.tags_modified == true then
-      self._sv.tags_modified = true
+   local player_id = radiant.entities.get_player_id(self._entity) or ''
+   if player_id == '' then
+      player_id = 'player_1'   
    end
+   local population_kingdom = stonehearth.player:get_kingdom(player_id)
+   if population_kingdom == 'bastioneers:kingdoms:bastioneers' then
+      if json and json.custom_tags then
+         tags = json.custom_tags
+      end
+   end
+   self:set_tag_string(tags, true)
 end
 
 function MaterialComponent:activate()

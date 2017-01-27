@@ -4,18 +4,9 @@
          "total_durability": 300
       },
       "model_variants": {
-         "default": {
+         "bastioneer": {
             "layer": "hat",
             "transparent": "true",
-            "mixintype_models": "override",
-            "models": [
-               "file(silver_helmet.qb)"
-            ]
-         },
-         "female": {
-            "layer": "hat",
-            "transparent": "true",
-            "mixintype_models": "override",
             "models": [
                "file(silver_helmet.qb)"
             ]

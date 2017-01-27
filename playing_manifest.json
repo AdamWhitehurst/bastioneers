@@ -1,0 +1,34 @@
+{
+   "info" : {
+      "name" : "playing_bastioneers",
+      "deferred_load": true,
+      "version" : 3
+   },
+   "aliases" : {},
+   "mixintos" :  {
+      "stonehearth/ui/data/constants.json" : "file(ui/data/constants.json)"
+   },
+   "overrides" : {
+      "stonehearth/ui/data/embark_shop.json" : "file(ui/data/embark_shop.json)",
+      "stonehearth/ui/game/start_menu/images/dock.png" : "file(ui/start_menu/dock.png)",
+      "stonehearth/ui/game/start_menu/images/citizens.png" : "file(ui/start_menu/citizens.png)",
+      "stonehearth/ui/game/start_menu/images/town.png" : "file(ui/start_menu/town.png)",
+      "stonehearth/ui/game/unit_frame/images/bg_border.png" : "file(ui/unit_frame/bg_border.png)",
+      "stonehearth/ui/game/unit_frame/images/command_button_bg.png" : "file(ui/unit_frame/command_button_bg.png)",
+      "stonehearth/ui/root/css/images/input/checkbox.png" : "file(ui/input/checkbox.png)",
+      "stonehearth/ui/root/css/images/gui/button.png" : "file(ui/gui/button.png)",
+      "stonehearth/ui/root/css/images/gui/panel.png" : "file(ui/gui/panel.png)",
+      "stonehearth/ui/root/css/images/gui/title.png" : "file(ui/gui/title.png)",
+      "stonehearth/ui/root/css/images/gui/well.png" : "file(ui/gui/well.png)",
+      "stonehearth/ui/root/css/images/gui/well2.png" : "file(ui/gui/well2.png)",
+      "stonehearth/ui/root/css/images/gui/tab.png" : "file(ui/gui/tab.png)",
+      "stonehearth/ui/root/css/images/gui/tab_active.png" : "file(ui/gui/tab_active.png)",
+      "stonehearth/entities/gizmos/camp_standard/camp_standard_ghost.json" : "bastioneers/entities/gizmos/camp_standard/camp_standard_ghost.json"
+   },
+   "ui": {
+      "less": [
+         "file(ui/unit_frame/unit_frame.less)",
+         "file(ui/gui/gui.less)"
+      ]
+   }
+}

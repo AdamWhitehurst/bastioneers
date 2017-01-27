@@ -11,7 +11,7 @@
       "torso": "file(refineer_outfit)",
       "mainhand": "bastioneers:refineer:rasp"
    },
-   "roles": "refineer_job crafter",
+   "roles": "refineer_job crafter everyone",
    "talisman_uri": "bastioneers:refineer:talisman",
    "default_stance": "passive",
    "icon": "file(images/icon.png)",
@@ -53,7 +53,7 @@
                "name": "i18n(stonehearth:jobs.mason.mason_description.level_1_data.perk_000_name)",
                "id": "crafter_recipe_unlock_1",
                "icon": "/stonehearth/jobs/common/images/standard_catalog.png",
-               "description": "i18n(stonehearth:jobs.mason.mason_description.level_1_data.perk_000_description)",
+               "description": "i18n(bastioneers:jobs.refineer.refineer_description.level_1_data.perk_000_description)",
                "level": 1
             }
          ]
@@ -61,10 +61,10 @@
       "2": {
          "perks": [
             {
-               "name": "i18n(stonehearth:jobs.mason.mason_description.level_2_data.perk_000_name)",
+               "name": "i18n(bastioneers:jobs.refineer.refineer_description.level_2_data.perk_000_name)",
                "id": "crafter_recipe_unlock_2",
                "icon": "/stonehearth/jobs/common/images/collaborative_insight.png",
-               "description": "i18n(stonehearth:jobs.mason.mason_description.level_2_data.perk_000_description)",
+               "description": "i18n(bastioneers:jobs.refineer.refineer_description.level_2_data.perk_000_description)",
                "level": 2
             }
          ]
@@ -76,7 +76,7 @@
                "name": "i18n(stonehearth:jobs.mason.mason_description.level_3_data.perk_000_name)",
                "id": "crafter_recipe_unlock_3",
                "icon": "/stonehearth/jobs/common/images/artistic_inspiration.png",
-               "description": "i18n(stonehearth:jobs.mason.mason_description.level_3_data.perk_000_description)",
+               "description": "i18n(bastioneers:jobs.refineer.refineer_description.level_3_data.perk_000_description)",
                "percent_chance": 10,
                "level": 3,
                "demote_fn": "unset_fine_percentage"
@@ -86,22 +86,28 @@
       "4": {
          "perks": [
             {
-               "name": "i18n(stonehearth:jobs.mason.mason_description.level_4_data.perk_000_name)",
-               "id": "crafter_recipe_unlock_4",
-               "icon": "/stonehearth/jobs/common/images/extended_catalog.png",
-               "description": "i18n(stonehearth:jobs.mason.mason_description.level_4_data.perk_000_description)",
-               "level": 4
+               "type": "apply_buff",
+               "name": "i18n(bastioneers:jobs.refineer.refineer_description.level_4_data.perk_000_name)",
+               "id": "refineer_speed_up_1",
+               "icon": "/stonehearth/jobs/trapper/images/speed_up.png",
+               "buff_name": "bastioneers:buffs:refineer:speed_1",
+               "description": "i18n(bastioneers:jobs.refineer.refineer_description.level_4_data.perk_000_description)",
+               "level": 4,
+               "demote_fn": "remove_buff"
             }
          ]
       },
       "6": {
-         "title": "i18n(stonehearth:jobs.mason.mason_description.level_6_data.title)",
+         "title": "i18n(bastioneers:jobs.refineer.refineer_description.level_6_data.title)",
          "perks": [
             {
-               "name": "i18n(stonehearth:jobs.mason.mason_description.level_6_data.perk_000_name)",
-               "id": "crafter_recipe_unlock_6",
-               "icon": "/stonehearth/jobs/common/images/common/images/master.png",
-               "description": "i18n(stonehearth:jobs.mason.mason_description.level_6_data.perk_000_description)",
+               "type": "increase_backpack_size",
+               "name": "i18n(bastioneers:jobs.refineer.refineer_description.level_6_data.perk_000_name)",
+               "id": "refineer_backpack_bonus_6",
+               "icon": "/stonehearth/jobs/common/images/master.png",
+               "description": "i18n(bastioneers:jobs.refineer.refineer_description.level_6_data.perk_000_description)",
+               "backpack_size_increase": "8",
+               "demote_fn": "decrease_backpack_size",
                "level": 6
             }
          ]

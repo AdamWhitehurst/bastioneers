@@ -38,10 +38,6 @@
             }
          ]
       },
-      "unit_info": {
-         "display_name": "i18n(bastioneers:entities.stones.natal_stone.display_name)",
-         "description": "i18n(bastioneers:entities.stones.natal_stone.description)"
-      },
       "bastioneers:natal_growth": {
          "duration": "1d"
       }
@@ -56,6 +52,11 @@
             "shopkeeper_level": 1,
             "shopkeeper_type": "caravan"
          }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(bastioneers:entities.stones.natal_stone.display_name)",
+         "description": "i18n(bastioneers:entities.stones.natal_stone.description)",
+         "category": "resources"
       }
    }
 }

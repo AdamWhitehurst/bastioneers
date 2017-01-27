@@ -14,14 +14,15 @@
       },
       "render_info": {
          "scale": 0.15
-      },
-      "unit_info": {
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
          "display_name": "i18n(bastioneers:entities.shrines.earthen_rejuvenation_obelisk.earthen_rejuvenation_obelisk_ghost.display_name)",
          "description": "i18n(bastioneers:entities.shrines.earthen_rejuvenation_obelisk.earthen_rejuvenation_obelisk_ghost.description)",
-         "icon": "file(earthen_rejuvenation_obelisk.png)"
-      },
-      "stonehearth:material": {
-         "tags": "light_source crafted obelisk"
+         "icon": "file(earthen_rejuvenation_obelisk.png)",
+         "category": "decoration",
+         "material_tags": "light_source crafted obelisk"
       }
    }
 }

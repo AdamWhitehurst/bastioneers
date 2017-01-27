@@ -2,11 +2,6 @@
    "type": "entity",
    "mixins": "stonehearth:mixins:item_properties",
    "components": {
-      "unit_info": {
-         "display_name": "i18n(stonehearth:jobs.footman.footman_outfit.display_name)",
-         "description": "i18n(stonehearth:jobs.footman.footman_outfit.description)",
-         "icon": "file(footman_outfit.png)"
-      },
       "render_info": {},
       "model_variants": {
          "default": {
@@ -30,6 +25,11 @@
    "entity_data": {
       "stonehearth:combat:armor_data": {
          "base_damage_reduction": 2
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:jobs.footman.footman_outfit.display_name)",
+         "description": "i18n(stonehearth:jobs.footman.footman_outfit.description)",
+         "icon": "file(footman_outfit.png)"
       }
    }
 }

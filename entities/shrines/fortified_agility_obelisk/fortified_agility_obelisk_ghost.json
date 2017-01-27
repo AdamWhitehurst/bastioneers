@@ -14,14 +14,15 @@
       },
       "render_info": {
          "scale": 0.15
-      },
-      "unit_info": {
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
          "display_name": "i18n(bastioneers:entities.shrines.fortified_agility_obelisk.fortified_agility_obelisk_ghost.display_name)",
          "description": "i18n(bastioneers:entities.shrines.fortified_agility_obelisk.fortified_agility_obelisk_ghost.description)",
-         "icon": "file(fortified_agility_obelisk.png)"
-      },
-      "stonehearth:material": {
-         "tags": "light_source crafted obelisk"
+         "icon": "file(fortified_agility_obelisk.png)",
+         "category": "decoration",
+         "material_tags": "light_source crafted obelisk"
       }
    }
 }

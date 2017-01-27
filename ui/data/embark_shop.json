@@ -1,0 +1,77 @@
+{
+   "starting_gold" : 160,
+   "shop_items" : [
+      {
+         "display_name" : "i18n(stonehearth:jobs.trapper.trapper_knife.display_name)",
+         "uri" : "stonehearth:trapper:talisman",
+         "icon" : "/stonehearth/jobs/trapper/trapper_knife/trapper_knife.png",
+         "description" : "i18n(stonehearth:jobs.trapper.trapper_description.description)",
+         "cost": 90
+      },
+      {
+         "display_name" : "i18n(stonehearth:entities.weapons.wooden_sword.display_name)",
+         "uri" : "stonehearth:footman:wooden_sword_talisman",
+         "icon" : "/stonehearth/entities/weapons/wooden_sword/wooden_sword.png",
+         "description" : "i18n(stonehearth:jobs.footman.footman_description.description)",
+         "cost": 60
+      },
+      {
+         "display_name" : "i18n(stonehearth:jobs.farmer.farmer_hoe.display_name)",
+         "uri" : "stonehearth:farmer:talisman",
+         "icon" : "/stonehearth/jobs/farmer/farmer_hoe/farmer_hoe.png",
+         "description" : "i18n(stonehearth:jobs.farmer.farmer_description.description)",
+         "cost": 50
+      },
+      {
+         "display_name" : "i18n(stonehearth:jobs.herbalist.herbalist_staff.herbalist_staff_talisman.display_name)",
+         "uri" : "stonehearth:herbalist:talisman",
+         "icon" : "/stonehearth/jobs/herbalist/herbalist_staff/herbalist_staff.png",
+         "description" : "i18n(stonehearth:jobs.herbalist.herbalist_description.description)",
+         "cost": 50
+      },
+      {
+         "display_name" : "i18n(stonehearth:jobs.weaver.weaver_spindle.weaver_spindle_talisman.display_name)",
+         "uri" : "stonehearth:weaver:talisman",
+         "icon" : "/stonehearth/jobs/weaver/weaver_spindle/weaver_spindle.png",
+         "description" : "i18n(stonehearth:jobs.weaver.weaver_description.description)",
+         "cost": 30
+      },
+      {
+         "display_name" : "i18n(stonehearth:entities.refined.stone_bricks.display_name)",
+         "uri" : "stonehearth:refined:stone_bricks",
+         "icon" : "/stonehearth/entities/refined/stone_bricks/stone_bricks.png",
+         "description" : "i18n(stonehearth:entities.refined.stone_bricks.description)",
+         "cost": 10
+      },
+      {
+         "display_name" : "i18n(bastioneers:entities.refined.wood_planks.display_name)",
+         "uri" : "bastioneers:refined:wood_planks",
+         "icon" : "/bastioneers/entities/refined/wood_planks/wood_planks.png",
+         "description" : "i18n(bastioneers:entities.refined.wood_planks.description)",
+         "cost": 10
+      },
+      {
+         "display_name" : "i18n(bastioneers:entities.food.fungi.mushroom_basket.display_name)",
+         "uri" : "bastioneers:food:fungi:mushroom_basket",
+         "icon" : "/bastioneers/entities/food/mushrooms/mushroom_basket/mushroom_basket.png",
+         "description" : "i18n(bastioneers:entities.food.fungi.mushroom_basket.description)",
+         "cost": 20
+      },
+      {
+         "count": 1,
+         "display_name" : "i18n(bastioneers:entities.food.fungi.fine_mushroom_basket.display_name)",
+         "uri" : "bastioneers:food:fungi:fine_mushroom_basket",
+         "icon" : "/bastioneers/entities/food/fine_mushrooms/fine_mushroom_basket/fine_mushroom_basket.png",
+         "description" : "i18n(bastioneers:entities.food.fungi.fine_mushroom_basket.description)",
+         "cost": 30
+      },
+      {
+         "count": 2,
+         "display_name" : "i18n(bastioneers:entities.food.fungi.fine_mushroom_basket.display_name)",
+         "uri" : "bastioneers:food:fungi:fine_mushroom_basket",
+         "icon" : "/bastioneers/entities/food/fine_mushrooms/fine_mushroom_basket/fine_mushroom_basket.png",
+         "description" : "i18n(bastioneers:entities.food.fungi.fine_mushroom_basket.description)",
+         "cost": 30
+      }
+   ]
+}

@@ -2,16 +2,14 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "unit_info": {
-         "display_name": "i18n(bastioneers:entities.armor.basic_stone_armor.basic_stone_armor_iconic.display_name)",
-         "description": "i18n(bastioneers:entities.armor.basic_stone_armor.basic_stone_armor_iconic.description)",
-         "icon": "file(basic_stone_armor.png)"
-      },
-      "item": {
-         "category": "armor"
-      },
-      "stonehearth:material": {
-         "tags": "armor heavy_armor"
+         "entity_data": {
+         "stonehearth:catalog": {
+            "display_name": "i18n(bastioneers:entities.armor.basic_stone_armor.basic_stone_armor_iconic.display_name)",
+            "description": "i18n(bastioneers:entities.armor.basic_stone_armor.basic_stone_armor_iconic.description)",
+            "icon": "file(basic_stone_armor.png)",
+            "category": "armor",
+            "material_tags": "armor heavy_armor"
+         }
       },
       "model_variants": {
          "default": {

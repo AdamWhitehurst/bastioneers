@@ -4,6 +4,7 @@
    "requirements": "i18n(bastioneers:jobs.herbalist.herbalist_description.requirements)",
    "description": "i18n(bastioneers:jobs.herbalist.herbalist_description.description)",
    "parent_job": "stonehearth:jobs:worker",
+   "roles": "herbalist_job crafter everyone",
    "crafter": {
    "recipe_list": "/bastioneers/jobs/herbalist/recipes/recipes.json"
    },
