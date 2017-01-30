@@ -7,7 +7,9 @@
          "bastioneer": {
             "layer": "hat",
             "transparent": "true",
-            "mixintype_models": "override",
+            "mixintypes": {
+               "models" : "override"
+            },
             "models": [
                "file(iron_circlet.qb)"
             ]

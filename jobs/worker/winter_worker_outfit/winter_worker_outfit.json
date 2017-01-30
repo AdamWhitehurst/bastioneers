@@ -6,14 +6,18 @@
       "model_variants": {
          "default": {
             "layer": "clothing",
-            "mixintype_models": "override",
+            "mixintypes": {
+               "models" : "override"
+            },
             "models": [
                "file(winter_worker_outfit.qb)"
             ]
          },
          "female": {
             "layer": "clothing",
-            "mixintype_models": "override",
+            "mixintypes": {
+               "models" : "override"
+            },
             "models": [
                "file(winter_worker_outfit.qb)"
             ]

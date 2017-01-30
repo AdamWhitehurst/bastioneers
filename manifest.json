@@ -173,7 +173,8 @@
       "stonehearth:weapons:stone_maul": "bastioneers/entities/weapons/stone_maul",
       "stonehearth:weapons:two_handed_sword": "bastioneers/entities/weapons/two_handed_sword",
       "stonehearth:worker:outfit:winter": "bastioneers/jobs/worker/winter_worker_outfit",
-      "stonehearth:worker:outfit:2": "bastioneers/jobs/worker/worker_outfit_2"
+      "stonehearth:worker:outfit:2": "bastioneers/jobs/worker/worker_outfit_2",
+      "rayyas_children:worker:outfit:2": "bastioneers/jobs/worker/worker_outfit_2"
    },
    "components": {
       "durability": "file(components/durability/durability_component.lua)",

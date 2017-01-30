@@ -8,7 +8,7 @@
    "workshop": "stonehearth:herbalist:workbench",
    "ingredients": [
       {
-         "material": "clay resource",
+         "material": "raw_clay resource",
          "count": 8
       },
       {
