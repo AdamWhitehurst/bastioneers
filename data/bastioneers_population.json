@@ -8,28 +8,10 @@
    "image": "/bastioneers/data/images/bastioneers_400x300.png",
    "story_board_image": "/bastioneers/data/images/story_board_image.png",
    "starting_talisman": "bastioneers:refineer:talisman",
+   "starting_resource": "stonehearth:resources:stone:hunk_of_stone",
    "camp_standard": "bastioneers:camp_standard",
    "job_index": "bastioneers:jobs:index",
    "inventory_capacity_equation": "math.max(num_citizens * 150, 1200)",
-   "jobs": {
-      "stonehearth:jobs:archer": "bastioneers:jobs:archer",
-      "stonehearth:jobs:blacksmith": "bastioneers:jobs:blacksmith",
-      "stonehearth:jobs:carpenter": "bastioneers:jobs:carpenter",
-      "stonehearth:jobs:cleric": "bastioneers:jobs:cleric",
-      "stonehearth:jobs:cook": "bastioneers:jobs:cook",
-      "stonehearth:jobs:engineer": "bastioneers:jobs:engineer",
-      "stonehearth:jobs:farmer": "bastioneers:jobs:farmer",
-      "stonehearth:jobs:footman": "bastioneers:jobs:footman",
-      "stonehearth:jobs:herbalist": "bastioneers:jobs:herbalist",
-      "stonehearth:jobs:knight": "bastioneers:jobs:knight",
-      "stonehearth:jobs:mason": "bastioneers:jobs:mason",
-      "stonehearth:jobs:potter": "bastioneers:jobs:potter",
-      "bastioneers:jobs:refineer": "bastioneers:jobs:refineer",
-      "stonehearth:jobs:shepherd": "bastioneers:jobs:shepherd",
-      "stonehearth:jobs:trapper": "bastioneers:jobs:trapper",
-      "stonehearth:jobs:weaver": "bastioneers:jobs:weaver",
-      "stonehearth:jobs:worker": "bastioneers:jobs:worker"
-   },
    "roles": {
       "default": {
          "male": {

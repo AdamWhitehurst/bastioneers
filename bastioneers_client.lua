@@ -6,14 +6,14 @@ local player_service_trace = nil
 local function check_override_ui(players, player_id)
    -- Load ui mod
    if not player_id then
-      player_id = 'player_1'
+      player_id = _radiant.client.get_player_id()
    end
+
    local client_player = players[player_id]
    if client_player then
       if client_player.kingdom == "bastioneers:kingdoms:bastioneers" then
          -- hot load bastioneers-only gameplay elements mod
-         _radiant.res.apply_manifest("bastioneers/playing_manifest.json")
-         
+         _radiant.res.apply_manifest("/bastioneers/playing_manifest.json")
       end
    end
 end
@@ -31,7 +31,9 @@ local function trace_player_service()
 end
 
 radiant.events.listen(bastioneers, 'radiant:init', function()
-      trace_player_service()
+   radiant.events.listen(radiant, 'radiant:client:server_ready', function()
+         trace_player_service()
+      end)
    end)
 
 return bastioneers

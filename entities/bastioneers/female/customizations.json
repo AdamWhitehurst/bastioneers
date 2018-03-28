@@ -1,0 +1,50 @@
+{
+	"type": "index",
+	"categories": {
+		"head_hair": ["hair"],
+		"face_hair": ["brows"],
+		"skin_color": ["skin_color"],
+		"hair_color": ["[none]"]
+	},
+	"styles": {
+		"skin_color": {
+			"type": "material_map",
+			"values": {
+				"skin1":{
+					"file":"/bastioneers/data/materials/material_maps/skin_female1_material_map.json"
+				},
+				"skin2":{
+					"file":"/bastioneers/data/materials/material_maps/skin_female2_material_map.json"
+				}
+			}
+		},
+		"hair": {
+			"type": "model",
+			"values": {
+				"hair_1": {
+					"file":"file(hair_1.qb)"
+				},
+				"hair_2": {
+					"file":"file(hair_2.qb)"
+				},
+				"hair_3": {
+					"file":"file(hair_3.qb)"
+				}
+			}
+		},
+		"brows": {
+			"type": "model",
+			"values": {
+				"brow_1": {
+					"file":"file(brow_1.qb)"
+				},
+				"brow_2": {
+					"file":"file(brow_2.qb)"
+				},
+				"brow_3": {
+					"file":"file(brow_3.qb)"
+				}
+			}
+		}
+	}
+}

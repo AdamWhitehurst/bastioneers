@@ -9,11 +9,11 @@
    "controller": "file(trapper.lua)",
    "roles": "trapper_job hunter cloth_wearer leather_wearer melee_combat combat everyone",
    "task_groups": [
-      "stonehearth:task_group:common_tasks",
-      "stonehearth:task_group:trapping",
-      "stonehearth:task_group:restock",
-      "stonehearth:task_group:harvest",
-      "stonehearth:task_group:placement"
+      "stonehearth:task_groups:common_tasks",
+      "stonehearth:task_groups:trapping",
+      "stonehearth:task_groups:restock",
+      "stonehearth:task_groups:harvest",
+      "stonehearth:task_groups:placement"
    ],
    "equipment": {
    		"torso" : "file(trapper_outfit)"
