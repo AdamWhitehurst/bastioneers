@@ -9,7 +9,6 @@
       "stonehearth/ui/data/constants.json" : "file(ui/data/constants.json)"
    },
    "overrides" : {
-      "stonehearth/ui/data/embark_shop.json" : "file(ui/data/embark_shop.json)",
       "stonehearth/ui/game/start_menu/images/dock.png" : "file(ui/start_menu/dock.png)",
       "stonehearth/ui/game/start_menu/images/citizens.png" : "file(ui/start_menu/citizens.png)",
       "stonehearth/ui/game/start_menu/images/town.png" : "file(ui/start_menu/town.png)",

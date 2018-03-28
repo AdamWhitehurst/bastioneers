@@ -3,46 +3,10 @@
    "mixins": "stonehearth:mixins:base_human", 
    "components": {
       "render_info" : {
-        "animation_table" : "bastioneers:skeletons:humanoid:female",
-        "color_map": "bastioneers:color_map:female",
-        "cache_model_geometry": false,
-        "model_variant": "bastioneer",
-        "material_maps": [
-        {
-            "type": "one_of",
-            "items": [
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female1_material_map.json",
-              "/bastioneers/data/materials/material_maps/skin_female2_material_map.json"
-            ]
-          }
-       ]
+         "animation_table" : "bastioneers:skeletons:humanoid:female",
+         "color_map": "bastioneers:color_map:female",
+         "cache_model_geometry": false,
+         "model_variant": "bastioneer"
       },
       "model_variants": {
          "default": {
@@ -55,9 +19,9 @@
    },
    "entity_data" : {
       "stonehearth:idle_effects": {
-          "mixintypes": {
+         "mixintypes": {
             "effects": "override"
-          },
+         },
          "effects": [
             {
                "name": "idle_breathe",
@@ -78,30 +42,44 @@
          ]
       },
       "stonehearth:customization_variants" : {
+         "customization_options": "bastioneers:female:customizations",
          "root" : {
-            "variants" : [
-               ["head"]
-            ]
+            "hair_and_skin_color": {
+               "weights": {
+                  "hair_and_skin_color": 1
+               }
+            },
+            "head_accessories": {
+               "weights": {
+                  "head_accessories": 1
+               }
+            }
          },
-        "head": {
-          "models": [
-            "file(hair_1.qb)",
-            "file(hair_2.qb)",
-            "file(hair_3.qb)"
-          ],
-          "variants": [
-            ["brows", "brows", "brows", "brows",
-            ]
-          ]
-        },
-        "brows": {
-            "models": [
-              "file(brow_1.qb)",
-              "file(brow_2.qb)",
-              "file(brow_3.qb)"
-            ]
-          },
-         "nothing" : {
+         "packages": {
+            "hair_and_skin_color": {
+               "skin_color": {
+                  "weights": {
+                     "skin1": 10,
+                     "skin2": 1
+                  }
+               }
+            },
+            "head_accessories": {
+               "hair": {
+                  "weights": {
+                     "hair_1": 1,
+                     "hair_2": 1,
+                     "hair_3": 1
+                  }
+               },
+               "brows": {
+                  "weights": {
+                     "brow_1": 1,
+                     "brow_2": 1,
+                     "brow_3": 1
+                  }
+               }
+            } 
          }
       }
    }
